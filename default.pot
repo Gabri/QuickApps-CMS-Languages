@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2012-02-26 01:54+0000\n"
+"POT-Creation-Date: 2012-03-14 22:49+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -134,7 +134,7 @@ msgstr ""
 msgid "\"Config/bootstrap.php\" file not found"
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:198
+#: Controller\Component\InstallerComponent.php:198;266
 msgid "Routes File"
 msgstr ""
 
@@ -204,10 +204,6 @@ msgstr ""
 
 #: Controller\Component\InstallerComponent.php:252
 msgid "Module app (\"%s\") folder not found"
-msgstr ""
-
-#: Controller\Component\InstallerComponent.php:266
-msgid "Routes file"
 msgstr ""
 
 #: Controller\Component\InstallerComponent.php:276
@@ -364,7 +360,7 @@ msgstr ""
 
 #: Plugin\Block\View\Manage\admin_add.ctp:3
 #: Plugin\Block\View\Manage\admin_edit.ctp:3
-#: Vendor\DummyLocale.php:8
+#: Vendor\DummyLocale.php:10
 #: View\Elements\theme_node_edit.ctp:11
 msgid "Content"
 msgstr ""
@@ -578,7 +574,7 @@ msgstr ""
 msgid "Published comments"
 msgstr ""
 
-#: Plugin\Comment\Controller\ListController.php:66;77
+#: Plugin\Comment\Controller\ListController.php:96;107
 #: Plugin\Node\View\Contents\admin_add.ctp:19
 #: Plugin\Node\View\Contents\admin_edit.ctp:31
 #: Plugin\Node\View\Elements\toolbar-index.ctp:4
@@ -588,13 +584,21 @@ msgstr ""
 msgid "Comments"
 msgstr ""
 
-#: Plugin\Comment\Controller\ListController.php:78
+#: Plugin\Comment\Controller\ListController.php:108
 msgid "Comment details"
 msgstr ""
 
-#: Plugin\Comment\Controller\ListController.php:80
+#: Plugin\Comment\Controller\ListController.php:110
 #: Plugin\Comment\View\List\admin_view.ctp:1
 msgid "Comment Details"
+msgstr ""
+
+#: Plugin\Comment\Controller\ListController.php:126
+msgid "Comment has been deleted."
+msgstr ""
+
+#: Plugin\Comment\Controller\ListController.php:128
+msgid "Comment could not be deleted."
 msgstr ""
 
 #: Plugin\Comment\Model\Comment.php:111;121
@@ -702,6 +706,7 @@ msgid "Mark as SPAM"
 msgstr ""
 
 #: Plugin\Comment\View\Elements\settings.ctp:89
+#: Plugin\Comment\View\Helper\CommentHookHelper.php:160
 msgid "Delete"
 msgstr ""
 
@@ -717,23 +722,31 @@ msgstr ""
 msgid "Unpublished (%s)"
 msgstr ""
 
-#: Plugin\Comment\View\Helper\CommentHookHelper.php:120
+#: Plugin\Comment\View\Helper\CommentHookHelper.php:129
 msgid "Invalid security code."
 msgstr ""
 
-#: Plugin\Comment\View\List\admin_show.ctp:9
+#: Plugin\Comment\View\Helper\CommentHookHelper.php:156
+msgid "Details"
+msgstr ""
+
+#: Plugin\Comment\View\Helper\CommentHookHelper.php:160
+msgid "Delete selected comment ?"
+msgstr ""
+
+#: Plugin\Comment\View\List\admin_show.ctp:9;75
 #: Plugin\Comment\View\List\admin_view.ctp:17
-#: Plugin\User\View\Elements\settings.ctp:26;50;97;121
-#: View\Elements\theme_node_comments_form.ctp:56
+#: Plugin\User\View\Elements\settings.ctp:24;47;92;115
+#: View\Elements\theme_node_comments_form.ctp:53
 msgid "Subject"
 msgstr ""
 
-#: Plugin\Comment\View\List\admin_show.ctp:13
+#: Plugin\Comment\View\List\admin_show.ctp:13;37
 #: Plugin\Node\View\Contents\admin_index.ctp:21
 msgid "Author"
 msgstr ""
 
-#: Plugin\Comment\View\List\admin_show.ctp:17
+#: Plugin\Comment\View\List\admin_show.ctp:17;89
 msgid "Posted in"
 msgstr ""
 
@@ -750,31 +763,79 @@ msgstr ""
 msgid "There are no comments to display"
 msgstr ""
 
-#: Plugin\Comment\View\List\admin_show.ctp:33
+#: Plugin\Comment\View\List\admin_show.ctp:35
+#: Plugin\Node\View\Contents\admin_index.ctp:55
+#: Plugin\User\View\List\admin_index.ctp:37
+msgid "Filter Options"
+msgstr ""
+
+#: Plugin\Comment\View\List\admin_show.ctp:41
+msgid "Author’s name"
+msgstr ""
+
+#: Plugin\Comment\View\List\admin_show.ctp:49
+msgid "Author’s e-mail"
+msgstr ""
+
+#: Plugin\Comment\View\List\admin_show.ctp:57
+msgid "Author’s host name (IP)"
+msgstr ""
+
+#: Plugin\Comment\View\List\admin_show.ctp:65
+msgid "Author’s web site"
+msgstr ""
+
+#: Plugin\Comment\View\List\admin_show.ctp:71
+msgid "Comment"
+msgstr ""
+
+#: Plugin\Comment\View\List\admin_show.ctp:83
+msgid "Comment’s body"
+msgstr ""
+
+#: Plugin\Comment\View\List\admin_show.ctp:93
+msgid "Content’s title"
+msgstr ""
+
+#: Plugin\Comment\View\List\admin_show.ctp:101
+msgid "Content’s slug"
+msgstr ""
+
+#: Plugin\Comment\View\List\admin_show.ctp:109
+msgid "Content’s id"
+msgstr ""
+
+#: Plugin\Comment\View\List\admin_show.ctp:115
+#: Plugin\Node\View\Contents\admin_index.ctp:124
+#: Plugin\User\View\List\admin_index.ctp:66
+msgid "Filter"
+msgstr ""
+
+#: Plugin\Comment\View\List\admin_show.ctp:120
 #: Plugin\Locale\View\Languages\admin_index.ctp:99
 msgid "Are you sure ?"
 msgstr ""
 
-#: Plugin\Comment\View\List\admin_show.ctp:35
+#: Plugin\Comment\View\List\admin_show.ctp:122
 #: Plugin\Locale\View\Languages\admin_index.ctp:101
 #: Plugin\Node\View\Contents\admin_index.ctp:131
 #: Plugin\User\View\List\admin_index.ctp:73
 msgid "Update Options"
 msgstr ""
 
-#: Plugin\Comment\View\List\admin_show.ctp:39
+#: Plugin\Comment\View\List\admin_show.ctp:126
 msgid "Approve selected comments"
 msgstr ""
 
-#: Plugin\Comment\View\List\admin_show.ctp:40
+#: Plugin\Comment\View\List\admin_show.ctp:127
 msgid "Unapprove selected comments"
 msgstr ""
 
-#: Plugin\Comment\View\List\admin_show.ctp:41
+#: Plugin\Comment\View\List\admin_show.ctp:128
 msgid "Delete selected comments"
 msgstr ""
 
-#: Plugin\Comment\View\List\admin_show.ctp:58
+#: Plugin\Comment\View\List\admin_show.ctp:145
 #: Plugin\Locale\View\Languages\admin_index.ctp:115
 #: Plugin\Node\View\Contents\admin_index.ctp:150
 #: Plugin\User\View\List\admin_index.ctp:87
@@ -796,8 +857,8 @@ msgid "on %s"
 msgstr ""
 
 #: Plugin\Comment\View\List\admin_view.ctp:14
+#: View\Elements\theme_comment.ctp:28
 #: View\Elements\theme_node.ctp:33
-#: View\Elements\theme_node_comments.ctp:55
 msgid "M d, Y H:i"
 msgstr ""
 
@@ -806,7 +867,7 @@ msgid "Hostname"
 msgstr ""
 
 #: Plugin\Comment\View\List\admin_view.ctp:16
-#: View\Elements\theme_node_comments_form.ctp:39;50
+#: View\Elements\theme_node_comments_form.ctp:38;47
 msgid "Web page"
 msgstr ""
 
@@ -1074,7 +1135,7 @@ msgstr ""
 msgid "This is only used if `Validation rule` has been set."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Helper\FieldTextHookHelper.php:198
+#: Plugin\Field\Fields\FieldText\View\Helper\FieldTextHookHelper.php:174
 msgid "Turn on JavaScript to see the email address."
 msgstr ""
 
@@ -1091,7 +1152,7 @@ msgid "Label"
 msgstr ""
 
 #: Plugin\Field\View\Elements\display_settings.ctp:25;50
-#: Vendor\DummyLocale.php:14
+#: Vendor\DummyLocale.php:18
 msgid "Hidden"
 msgstr ""
 
@@ -1101,10 +1162,6 @@ msgstr ""
 
 #: Plugin\Field\View\Elements\display_settings.ctp:25
 msgid "Inline"
-msgstr ""
-
-#: Plugin\Field\View\Elements\display_settings.ctp:32
-msgid "Hooktags"
 msgstr ""
 
 #: Plugin\Field\View\Elements\display_settings.ctp:38
@@ -1274,8 +1331,8 @@ msgid "Display language name"
 msgstr ""
 
 #: Plugin\Locale\View\Elements\toolbar.ctp:3
-#: Plugin\Node\View\Elements\search_form.ctp:41
-#: Vendor\DummyLocale.php:15
+#: Vendor\DummyLocale.php:19
+#: View\Elements\theme_search_form.ctp:41
 msgid "Languages"
 msgstr ""
 
@@ -1535,7 +1592,7 @@ msgstr ""
 msgid "Delete the selected package ?"
 msgstr ""
 
-#: Plugin\Locale\View\Packages\admin_index.ctp:88
+#: Plugin\Locale\View\Packages\admin_index.ctp:89
 msgid "Invalid package"
 msgstr ""
 
@@ -1564,7 +1621,7 @@ msgid "Usage"
 msgstr ""
 
 #: Plugin\Locale\View\Translations\admin_list.ctp:4
-#: View\Themed\Default\app\ThemeDefault\View\Elements\settings.ctp:20
+#: Vendor\DummyLocale.php:65;75
 msgid "Text"
 msgstr ""
 
@@ -1586,8 +1643,8 @@ msgstr ""
 
 #: Plugin\Locale\View\Translations\admin_list.ctp:27;30
 #: Plugin\Node\View\Elements\search_block.ctp:26
-#: Plugin\Node\View\Elements\search_form.ctp:15;50
-#: Plugin\Node\View\Helper\NodeHookHelper.php:51
+#: Plugin\Node\View\Helper\NodeHookHelper.php:63
+#: View\Elements\theme_search_form.ctp:15;50
 msgid "Search"
 msgstr ""
 
@@ -1792,10 +1849,10 @@ msgstr ""
 #: Plugin\Menu\View\Manage\admin_edit_link.ctp:56
 #: Plugin\Node\View\Types\admin_display.ctp:44
 #: Plugin\Node\View\Types\admin_edit.ctp:56
-#: Plugin\System\View\Themes\admin_settings.ctp:29
+#: Plugin\System\View\Themes\admin_settings.ctp:35
 #: Plugin\Taxonomy\View\Vocabularies\admin_terms.ctp:9
 #: Plugin\User\View\Display\admin_index.ctp:41
-#: View\Elements\theme_node_comments_form.ctp:64
+#: View\Elements\theme_node_comments_form.ctp:60
 msgid "Save"
 msgstr ""
 
@@ -1841,7 +1898,7 @@ msgid "Delete selected menu ?"
 msgstr ""
 
 #: Plugin\Menu\View\Manage\admin_links.ctp:2;4
-#: View\Themed\Default\app\ThemeDefault\View\Elements\settings.ctp:19
+#: Vendor\DummyLocale.php:67;77
 msgid "Links"
 msgstr ""
 
@@ -1886,19 +1943,19 @@ msgstr ""
 msgid "Select content type"
 msgstr ""
 
-#: Plugin\Node\Controller\NodeController.php:176
+#: Plugin\Node\Controller\NodeController.php:177
 msgid "Page not found"
 msgstr ""
 
-#: Plugin\Node\Controller\NodeController.php:192
+#: Plugin\Node\Controller\NodeController.php:193
 msgid "Your comment has been queued for review by site administrators and will be published after approval."
 msgstr ""
 
-#: Plugin\Node\Controller\NodeController.php:194
+#: Plugin\Node\Controller\NodeController.php:195
 msgid "Your comment has been posted."
 msgstr ""
 
-#: Plugin\Node\Controller\NodeController.php:199
+#: Plugin\Node\Controller\NodeController.php:200
 msgid "Comment could not be saved. Please try again."
 msgstr ""
 
@@ -1991,7 +2048,7 @@ msgstr ""
 #: Plugin\Node\View\Contents\admin_add.ctp:18
 #: Plugin\Node\View\Contents\admin_edit.ctp:30
 #: Plugin\System\Controller\ModulesController.php:90
-#: Plugin\System\View\Modules\admin_index.ctp:84
+#: Plugin\System\View\Modules\admin_index.ctp:93
 msgid "Settings"
 msgstr ""
 
@@ -2249,11 +2306,6 @@ msgstr ""
 msgid "There are no nodes to display"
 msgstr ""
 
-#: Plugin\Node\View\Contents\admin_index.ctp:55
-#: Plugin\User\View\List\admin_index.ctp:37
-msgid "Filter Options"
-msgstr ""
-
 #: Plugin\Node\View\Contents\admin_index.ctp:81
 msgid "Front Page"
 msgstr ""
@@ -2276,11 +2328,6 @@ msgstr ""
 
 #: Plugin\Node\View\Contents\admin_index.ctp:98
 msgid "not sticky at top"
-msgstr ""
-
-#: Plugin\Node\View\Contents\admin_index.ctp:124
-#: Plugin\User\View\List\admin_index.ctp:66
-msgid "Filter"
 msgstr ""
 
 #: Plugin\Node\View\Contents\admin_index.ctp:129
@@ -2338,22 +2385,6 @@ msgstr ""
 msgid "Adds a prefix to each search URL query."
 msgstr ""
 
-#: Plugin\Node\View\Elements\search_form.ctp:19
-msgid "Containing any of the words"
-msgstr ""
-
-#: Plugin\Node\View\Elements\search_form.ctp:20
-msgid "Containing the phrase"
-msgstr ""
-
-#: Plugin\Node\View\Elements\search_form.ctp:21
-msgid "Containing none of the words"
-msgstr ""
-
-#: Plugin\Node\View\Elements\search_form.ctp:28
-msgid "Only of the type(s)"
-msgstr ""
-
 #: Plugin\Node\View\Elements\toolbar-index.ctp:3
 msgid "New Content"
 msgstr ""
@@ -2363,12 +2394,12 @@ msgid "Add Type"
 msgstr ""
 
 #: Plugin\Node\View\Node\search.ctp:21
-#: View\Elements\theme_node_comments.ctp:20;84
+#: View\Elements\theme_node_comments.ctp:20;37
 msgid "«"
 msgstr ""
 
 #: Plugin\Node\View\Node\search.ctp:23
-#: View\Elements\theme_node_comments.ctp:22;86
+#: View\Elements\theme_node_comments.ctp:22;39
 msgid "»"
 msgstr ""
 
@@ -2624,8 +2655,8 @@ msgid "The file `%s` could not be written."
 msgstr ""
 
 #: Plugin\System\Controller\HelpController.php:31
-#: Plugin\System\View\Modules\admin_index.ctp:80
-#: Vendor\DummyLocale.php:13
+#: Plugin\System\View\Modules\admin_index.ctp:89
+#: Vendor\DummyLocale.php:15
 msgid "Help"
 msgstr ""
 
@@ -2670,31 +2701,31 @@ msgstr ""
 msgid "Module has been installed"
 msgstr ""
 
-#: Plugin\System\Controller\ThemesController.php:19
+#: Plugin\System\Controller\ThemesController.php:37
 msgid "Your themes folder is not writable. %s"
 msgstr ""
 
-#: Plugin\System\Controller\ThemesController.php:67
+#: Plugin\System\Controller\ThemesController.php:86
 msgid "Theme settings"
 msgstr ""
 
-#: Plugin\System\Controller\ThemesController.php:69
+#: Plugin\System\Controller\ThemesController.php:88
 msgid "Configure Theme"
 msgstr ""
 
-#: Plugin\System\Controller\ThemesController.php:78
+#: Plugin\System\Controller\ThemesController.php:97
 msgid "Theme '%s' has been uninstalled"
 msgstr ""
 
-#: Plugin\System\Controller\ThemesController.php:82
+#: Plugin\System\Controller\ThemesController.php:101
 msgid "Error uninstalling theme '%s'"
 msgstr ""
 
-#: Plugin\System\Controller\ThemesController.php:96
+#: Plugin\System\Controller\ThemesController.php:115
 msgid "Theme could not been installed"
 msgstr ""
 
-#: Plugin\System\Controller\ThemesController.php:98
+#: Plugin\System\Controller\ThemesController.php:117
 msgid "Theme has been installed"
 msgstr ""
 
@@ -2806,12 +2837,40 @@ msgstr ""
 msgid "Help is available on the following items"
 msgstr ""
 
-#: Plugin\System\View\Helper\SystemHookHelper.php:27
-msgid "Powered by &copy; QuickApps v%s"
+#: Plugin\System\View\Helper\SystemHookHelper.php:37
+msgid "Powered by &copy; <a href=\"http://cms.quickapps.es/\">QuickApps CMS</a> v%s"
 msgstr ""
 
-#: Plugin\System\View\Helper\SystemHookHelper.php:43
+#: Plugin\System\View\Helper\SystemHookHelper.php:61
 msgid "Recent Content"
+msgstr ""
+
+#: Plugin\System\View\Helper\ThemeCustomizerHelper.php:50
+msgid "Color %d"
+msgstr ""
+
+#: Plugin\System\View\Helper\ThemeCustomizerHelper.php:54
+msgid "Font %d"
+msgstr ""
+
+#: Plugin\System\View\Helper\ThemeCustomizerHelper.php:58
+msgid "Size %d"
+msgstr ""
+
+#: Plugin\System\View\Helper\ThemeCustomizerHelper.php:62
+msgid "Add Your CSS"
+msgstr ""
+
+#: Plugin\System\View\Helper\ThemeCustomizerHelper.php:67
+msgid "Unknow property %d"
+msgstr ""
+
+#: Plugin\System\View\Helper\ThemeCustomizerHelper.php:190
+msgid "Reset"
+msgstr ""
+
+#: Plugin\System\View\Helper\ThemeCustomizerHelper.php:208
+msgid "Reset selected style sheet ?"
 msgstr ""
 
 #: Plugin\System\View\Modules\admin_index.ctp:7
@@ -2842,28 +2901,28 @@ msgstr ""
 msgid "Install From URL"
 msgstr ""
 
-#: Plugin\System\View\Modules\admin_index.ctp:74
+#: Plugin\System\View\Modules\admin_index.ctp:83
 #: Plugin\System\View\Themes\admin_index.ctp:77;131
 msgid "author: %s"
 msgstr ""
 
-#: Plugin\System\View\Modules\admin_index.ctp:75
+#: Plugin\System\View\Modules\admin_index.ctp:84
 msgid "Dependencies"
 msgstr ""
 
-#: Plugin\System\View\Modules\admin_index.ctp:88
+#: Plugin\System\View\Modules\admin_index.ctp:97
 msgid "Disable"
 msgstr ""
 
-#: Plugin\System\View\Modules\admin_index.ctp:88
+#: Plugin\System\View\Modules\admin_index.ctp:97
 msgid "Enable"
 msgstr ""
 
-#: Plugin\System\View\Modules\admin_index.ctp:89
+#: Plugin\System\View\Modules\admin_index.ctp:98
 msgid "Delete selected module ? This change cant be undone!"
 msgstr ""
 
-#: Plugin\System\View\Modules\admin_index.ctp:89
+#: Plugin\System\View\Modules\admin_index.ctp:98
 #: Plugin\System\View\Themes\admin_index.ctp:83;137
 msgid "Uninstall"
 msgstr ""
@@ -2893,7 +2952,7 @@ msgid "Set as default"
 msgstr ""
 
 #: Plugin\System\View\Themes\admin_index.ctp:83;137
-msgid "Delete selected theme ?\\nThis operation can be undone!"
+msgid "Delete selected theme ?\\nThis operation cannot be undone!"
 msgstr ""
 
 #: Plugin\System\View\Themes\admin_index.ctp:86;140
@@ -2912,39 +2971,43 @@ msgstr ""
 msgid "\"%s\" Theme"
 msgstr ""
 
-#: Plugin\System\View\Themes\admin_settings.ctp:12
+#: Plugin\System\View\Themes\admin_settings.ctp:13
+msgid "Customize Appearance"
+msgstr ""
+
+#: Plugin\System\View\Themes\admin_settings.ctp:18
 msgid "Toggle display"
 msgstr ""
 
-#: Plugin\System\View\Themes\admin_settings.ctp:13;19
+#: Plugin\System\View\Themes\admin_settings.ctp:19;25
 msgid "Logo"
 msgstr ""
 
-#: Plugin\System\View\Themes\admin_settings.ctp:14
+#: Plugin\System\View\Themes\admin_settings.ctp:20
 msgid "Site name"
 msgstr ""
 
-#: Plugin\System\View\Themes\admin_settings.ctp:15
+#: Plugin\System\View\Themes\admin_settings.ctp:21
 msgid "Site slogan"
 msgstr ""
 
-#: Plugin\System\View\Themes\admin_settings.ctp:16;24
+#: Plugin\System\View\Themes\admin_settings.ctp:22;30
 msgid "Shortcut icon"
 msgstr ""
 
-#: Plugin\System\View\Themes\admin_settings.ctp:20
+#: Plugin\System\View\Themes\admin_settings.ctp:26
 msgid "Logo image URL"
 msgstr ""
 
-#: Plugin\System\View\Themes\admin_settings.ctp:21
+#: Plugin\System\View\Themes\admin_settings.ctp:27
 msgid "Leave blank for use default logo."
 msgstr ""
 
-#: Plugin\System\View\Themes\admin_settings.ctp:25
+#: Plugin\System\View\Themes\admin_settings.ctp:31
 msgid "Shortcut icon URL"
 msgstr ""
 
-#: Plugin\System\View\Themes\admin_settings.ctp:26
+#: Plugin\System\View\Themes\admin_settings.ctp:32
 msgid "Leave blank for use default favicon."
 msgstr ""
 
@@ -3171,7 +3234,7 @@ msgstr ""
 
 #: Plugin\User\Controller\ListController.php:67
 #: Plugin\User\View\Elements\toolbar.ctp:3
-#: Vendor\DummyLocale.php:11
+#: Vendor\DummyLocale.php:13
 msgid "Users"
 msgstr ""
 
@@ -3236,7 +3299,7 @@ msgstr ""
 
 #: Plugin\User\Controller\UserController.php:25;38
 #: Plugin\User\View\Elements\user_login_block.ctp:9
-#: Plugin\User\View\Helper\UserHookHelper.php:41
+#: Plugin\User\View\Helper\UserHookHelper.php:57
 #: Plugin\User\View\User\admin_login.ctp:2;11
 #: Plugin\User\View\User\login.ctp:2
 msgid "Login"
@@ -3314,39 +3377,40 @@ msgstr ""
 msgid "Mailing notifications"
 msgstr ""
 
-#: Plugin\User\View\Elements\settings.ctp:19
+#: Plugin\User\View\Elements\settings.ctp:18
 msgid "Welcome"
 msgstr ""
 
-#: Plugin\User\View\Elements\settings.ctp:34;58;75;82;105;129
+#: Plugin\User\View\Elements\settings.ctp:32;55;71;78;100;123
+#: Vendor\DummyLocale.php:73
 msgid "Body"
 msgstr ""
 
-#: Plugin\User\View\Elements\settings.ctp:42
+#: Plugin\User\View\Elements\settings.ctp:40
 msgid "User activation"
 msgstr ""
 
-#: Plugin\User\View\Elements\settings.ctp:46
+#: Plugin\User\View\Elements\settings.ctp:43
 msgid "Notify user when account is activated."
 msgstr ""
 
-#: Plugin\User\View\Elements\settings.ctp:66
+#: Plugin\User\View\Elements\settings.ctp:63
 msgid "Account blocked"
 msgstr ""
 
-#: Plugin\User\View\Elements\settings.ctp:70
+#: Plugin\User\View\Elements\settings.ctp:66
 msgid "Notify user when account is blocked."
 msgstr ""
 
-#: Plugin\User\View\Elements\settings.ctp:90
+#: Plugin\User\View\Elements\settings.ctp:86
 msgid "Password recovery"
 msgstr ""
 
-#: Plugin\User\View\Elements\settings.ctp:113
+#: Plugin\User\View\Elements\settings.ctp:108
 msgid "Account canceled"
 msgstr ""
 
-#: Plugin\User\View\Elements\settings.ctp:117
+#: Plugin\User\View\Elements\settings.ctp:111
 msgid "Notify user when account is canceled."
 msgstr ""
 
@@ -3395,7 +3459,7 @@ msgstr ""
 msgid "Number of users"
 msgstr ""
 
-#: Plugin\User\View\Helper\UserHookHelper.php:28
+#: Plugin\User\View\Helper\UserHookHelper.php:36
 msgid "Who's New"
 msgstr ""
 
@@ -3467,7 +3531,6 @@ msgid "Confirm password"
 msgstr ""
 
 #: Plugin\User\View\List\admin_add.ctp:28
-#: Plugin\User\View\User\register.ctp:24
 msgid "Create user"
 msgstr ""
 
@@ -3500,7 +3563,7 @@ msgstr ""
 
 #: Plugin\User\View\List\admin_index.ctp:13;62
 #: Plugin\User\View\User\profile.ctp:14
-#: View\Elements\theme_node_comments_form.ctp:38
+#: View\Elements\theme_node_comments_form.ctp:37
 #: View\Install\user_account.ctp:35
 msgid "Email"
 msgstr ""
@@ -3530,7 +3593,7 @@ msgid "Role name"
 msgstr ""
 
 #: Plugin\User\View\Roles\admin_edit.ctp:9
-msgid "Update role"
+msgid "Update Role"
 msgstr ""
 
 #: Plugin\User\View\Roles\admin_index.ctp:3
@@ -3574,51 +3637,227 @@ msgstr ""
 msgid "Last connection"
 msgstr ""
 
-#: Vendor\DummyLocale.php:6
+#: Plugin\User\View\User\register.ctp:23
+msgid "Register"
+msgstr ""
+
+#: Vendor\DummyLocale.php:8
 msgid "Dashboard"
 msgstr ""
 
-#: Vendor\DummyLocale.php:7
+#: Vendor\DummyLocale.php:9
 msgid "Structure"
 msgstr ""
 
-#: Vendor\DummyLocale.php:9
+#: Vendor\DummyLocale.php:11
 msgid "Appearance"
 msgstr ""
 
-#: Vendor\DummyLocale.php:10
+#: Vendor\DummyLocale.php:12
 msgid "Modules"
 msgstr ""
 
-#: Vendor\DummyLocale.php:12
+#: Vendor\DummyLocale.php:14
 msgid "Configuration"
 msgstr ""
 
-#: Vendor\DummyLocale.php:16
+#: Vendor\DummyLocale.php:20
 msgid "View Site"
 msgstr ""
 
-#: Vendor\DummyLocale.php:17
+#: Vendor\DummyLocale.php:21
 msgid "Log out"
 msgstr ""
 
-#: Vendor\DummyLocale.php:18
+#: Vendor\DummyLocale.php:22
 #: View\Themed\Admin\Layouts\default.ctp:17
 msgid "Logout"
 msgstr ""
 
-#: Vendor\DummyLocale.php:19
+#: Vendor\DummyLocale.php:23
 msgid "My account"
 msgstr ""
 
-#: Vendor\DummyLocale.php:20
+#: Vendor\DummyLocale.php:24
 #: View\Helper\TableHelper.php:100
 msgid "« Previous "
 msgstr ""
 
-#: Vendor\DummyLocale.php:21
+#: Vendor\DummyLocale.php:25
 #: View\Helper\TableHelper.php:101
 msgid " Next »"
+msgstr ""
+
+#: Vendor\DummyLocale.php:28
+msgid "Configure what block content appears in your site's sidebars and other regions."
+msgstr ""
+
+#: Vendor\DummyLocale.php:29
+msgid "Manage content types."
+msgstr ""
+
+#: Vendor\DummyLocale.php:30
+msgid "Add new menus to your site, edit existing menus, and rename and reorganize menu links."
+msgstr ""
+
+#: Vendor\DummyLocale.php:31
+msgid "Manage tagging, categorization, and classification of your content."
+msgstr ""
+
+#: Vendor\DummyLocale.php:34
+msgid "Controls the visual building blocks a page is constructed with. Blocks are boxes of content rendered into an area, or region, of a web page."
+msgstr ""
+
+#: Vendor\DummyLocale.php:35
+msgid "Allows users to comment on and discuss published content."
+msgstr ""
+
+#: Vendor\DummyLocale.php:36
+msgid "Field API to add fields to entities like nodes and users."
+msgstr ""
+
+#: Vendor\DummyLocale.php:37
+msgid "Adds language handling functionality and enables the translation of the user interface to languages other than English"
+msgstr ""
+
+#: Vendor\DummyLocale.php:38
+msgid "Allows administrators to customize the site navigation menu."
+msgstr ""
+
+#: Vendor\DummyLocale.php:39
+msgid "Allows content to be submitted to the site and displayed on pages."
+msgstr ""
+
+#: Vendor\DummyLocale.php:40
+msgid "System Kernel."
+msgstr ""
+
+#: Vendor\DummyLocale.php:41
+msgid "Enables the categorization of content."
+msgstr ""
+
+#: Vendor\DummyLocale.php:42
+msgid "Manages the user registration and login system."
+msgstr ""
+
+#: Vendor\DummyLocale.php:45
+msgid "Default frontend theme for QuickApps"
+msgstr ""
+
+#: Vendor\DummyLocale.php:46
+msgid "Default backend theme for QuickApps"
+msgstr ""
+
+#: Vendor\DummyLocale.php:49
+msgid "Article"
+msgstr ""
+
+#: Vendor\DummyLocale.php:50
+msgid "Basic page"
+msgstr ""
+
+#: Vendor\DummyLocale.php:53
+msgid "Use articles for time-sensitive content like news, press releases or blog posts."
+msgstr ""
+
+#: Vendor\DummyLocale.php:54
+msgid "Use basic pages for your static content, such as an 'About us' page."
+msgstr ""
+
+#: Vendor\DummyLocale.php:57
+msgid "Date picker field."
+msgstr ""
+
+#: Vendor\DummyLocale.php:58
+msgid "Define file uploader."
+msgstr ""
+
+#: Vendor\DummyLocale.php:59
+msgid "Defines list field types. Use with Options to create selection lists."
+msgstr ""
+
+#: Vendor\DummyLocale.php:60
+msgid "Defines simple text field types."
+msgstr ""
+
+#: Vendor\DummyLocale.php:61
+msgid "Defines terms list."
+msgstr ""
+
+#: Vendor\DummyLocale.php:64;74
+msgid "Main font"
+msgstr ""
+
+#: Vendor\DummyLocale.php:66
+msgid "Footer"
+msgstr ""
+
+#: Vendor\DummyLocale.php:68
+msgid "Header top"
+msgstr ""
+
+#: Vendor\DummyLocale.php:69
+msgid "Header bottom"
+msgstr ""
+
+#: Vendor\DummyLocale.php:70
+msgid "Main background"
+msgstr ""
+
+#: Vendor\DummyLocale.php:76
+msgid "Background"
+msgstr ""
+
+#: Vendor\DummyLocale.php:78
+msgid "Links hover"
+msgstr ""
+
+#: Vendor\DummyLocale.php:79
+msgid "Header"
+msgstr ""
+
+#: Vendor\DummyLocale.php:80
+msgid "Main menu backrgound"
+msgstr ""
+
+#: Vendor\DummyLocale.php:81
+msgid "Main menu text"
+msgstr ""
+
+#: Vendor\DummyLocale.php:82
+msgid "Branding background"
+msgstr ""
+
+#: Vendor\DummyLocale.php:85
+msgid "The <em>Main</em> menu is used on many sites to show the major sections of the site, often in a top navigation bar."
+msgstr ""
+
+#: Vendor\DummyLocale.php:86
+msgid "The <em>Management</em> menu contains links for administrative tasks."
+msgstr ""
+
+#: Vendor\DummyLocale.php:87
+msgid "The <em>Navigation</em> menu contains links intended for site visitors. Links are added to the <em>Navigation</em> menu automatically by some modules."
+msgstr ""
+
+#: Vendor\DummyLocale.php:88
+msgid "The <em>User</em> menu contains links related to the user's account, as well as the 'Log out' link."
+msgstr ""
+
+#: Vendor\DummyLocale.php:91
+msgid "We sincerely apologize for the inconvenience.<br/>Our site is currently undergoing scheduled maintenance and upgrades, but will return shortly.<br/>Thanks you for your patience."
+msgstr ""
+
+#: View\Elements\theme_comment.ctp:28
+msgid "said on %s"
+msgstr ""
+
+#: View\Elements\theme_comment.ctp:29
+msgid "Permalink"
+msgstr ""
+
+#: View\Elements\theme_comment.ctp:40
+msgid "Quote"
 msgstr ""
 
 #: View\Elements\theme_node.ctp:32
@@ -3633,43 +3872,46 @@ msgstr ""
 msgid "Read More"
 msgstr ""
 
-#: View\Elements\theme_node_comments.ctp:55
-msgid "said on %s"
-msgstr ""
-
-#: View\Elements\theme_node_comments.ctp:56
-msgid "Permalink"
-msgstr ""
-
-#: View\Elements\theme_node_comments.ctp:68
-msgid "Quote"
-msgstr ""
-
 #: View\Elements\theme_node_comments_form.ctp:16
 msgid "Add new comment"
 msgstr ""
 
-#: View\Elements\theme_node_comments_form.ctp:21;28;37
+#: View\Elements\theme_node_comments_form.ctp:21;29;36
 msgid "Your name"
 msgstr ""
 
-#: View\Elements\theme_node_comments_form.ctp:48
+#: View\Elements\theme_node_comments_form.ctp:45
 msgid "Your name *"
 msgstr ""
 
-#: View\Elements\theme_node_comments_form.ctp:49
+#: View\Elements\theme_node_comments_form.ctp:46
 msgid "Email *"
 msgstr ""
 
-#: View\Elements\theme_node_comments_form.ctp:59
+#: View\Elements\theme_node_comments_form.ctp:56
 msgid "Comment *"
+msgstr ""
+
+#: View\Elements\theme_search_form.ctp:19
+msgid "Containing any of the words"
+msgstr ""
+
+#: View\Elements\theme_search_form.ctp:20
+msgid "Containing the phrase"
+msgstr ""
+
+#: View\Elements\theme_search_form.ctp:21
+msgid "Containing none of the words"
+msgstr ""
+
+#: View\Elements\theme_search_form.ctp:28
+msgid "Only of the type(s)"
 msgstr ""
 
 #: View\Errors\error400.ctp:4
 #: View\Errors\error500.ctp:4
 #: View\Errors\private_action.ctp:4
 #: View\Layouts\default.ctp:3
-#: View\Layouts\error.ctp:3
 msgid "Error"
 msgstr ""
 
@@ -3703,7 +3945,7 @@ msgstr ""
 msgid "If you want to customize this error message, create %s"
 msgstr ""
 
-#: View\Helper\LayoutHelper.php:342
+#: View\Helper\LayoutHelper.php:367
 msgid "The node could not be rendered"
 msgstr ""
 
@@ -3848,26 +4090,6 @@ msgstr ""
 
 #: View\Themed\Default\app\ThemeDefault\View\Elements\settings.ctp:3
 msgid "Recomended images size:"
-msgstr ""
-
-#: View\Themed\Default\app\ThemeDefault\View\Elements\settings.ctp:8
-msgid "Color Scheme"
-msgstr ""
-
-#: View\Themed\Default\app\ThemeDefault\View\Elements\settings.ctp:17
-msgid "Header top"
-msgstr ""
-
-#: View\Themed\Default\app\ThemeDefault\View\Elements\settings.ctp:18
-msgid "Header bottom"
-msgstr ""
-
-#: View\Themed\Default\app\ThemeDefault\View\Elements\settings.ctp:21
-msgid "Main Background"
-msgstr ""
-
-#: View\Themed\Default\app\ThemeDefault\View\Elements\settings.ctp:22
-msgid "Footer"
 msgstr ""
 
 #: View\Themed\Default\app\ThemeDefault\View\Elements\theme_default_slider_settings.ctp:2
