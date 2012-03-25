@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2012-03-14 22:49+0000\n"
+"POT-Creation-Date: 2012-03-25 21:48+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #: Controller\InstallController.php:69
-msgid "Your php version is not suported. check that your version is 5.2.8 or newer."
+msgid "Your php version is not supported. check that your version is 5.2.8 or newer."
 msgstr ""
 
 #: Controller\InstallController.php:73
@@ -23,39 +23,39 @@ msgid "MySQL extension is not loaded on your server."
 msgstr ""
 
 #: Controller\InstallController.php:77
-msgid "Your server has SafeMode on, please turn it off before continue."
+msgid "Your server has SafeMode on, please turn it off before continuing."
 msgstr ""
 
 #: Controller\InstallController.php:81
-msgid "tmp folder is not writable"
+msgid "tmp folder is not writable."
 msgstr ""
 
 #: Controller\InstallController.php:85
-msgid "tmp/cache folder is not writable"
+msgid "tmp/cache folder is not writable."
 msgstr ""
 
 #: Controller\InstallController.php:89
-msgid "tmp/cache/installer folder is not writable"
+msgid "tmp/cache/installer folder is not writable."
 msgstr ""
 
 #: Controller\InstallController.php:93
-msgid "tmp/cache/models folder is not writable"
+msgid "tmp/cache/models folder is not writable."
 msgstr ""
 
 #: Controller\InstallController.php:97
-msgid "tmp/cache/persistent folder is not writable"
+msgid "tmp/cache/persistent folder is not writable."
 msgstr ""
 
 #: Controller\InstallController.php:101
-msgid "tmp/cache/i18n folder is not writable"
+msgid "tmp/cache/i18n folder is not writable."
 msgstr ""
 
 #: Controller\InstallController.php:105
-msgid "Config folder is not writable"
+msgid "Config folder is not writable."
 msgstr ""
 
 #: Controller\InstallController.php:109
-msgid "Config/core.php file is not writable"
+msgid "Config/core.php file is not writable."
 msgstr ""
 
 #: Controller\InstallController.php:139
@@ -63,7 +63,7 @@ msgid "Could not connect to database."
 msgstr ""
 
 #: Controller\InstallController.php:202
-msgid "Could not dump database"
+msgid "Could not dump database."
 msgstr ""
 
 #: Controller\InstallController.php:205
@@ -75,7 +75,7 @@ msgid "Could not create new user, please try again."
 msgstr ""
 
 #: Controller\InstallController.php:263
-msgid "Could not write 'install' file. Check file/folder permissions and refresh this page"
+msgid "Could not write 'install' file. Check file/folder permissions and refresh this page."
 msgstr ""
 
 #: Controller\Component\InstallerComponent.php:101
@@ -83,7 +83,7 @@ msgid "Could not download package file."
 msgstr ""
 
 #: Controller\Component\InstallerComponent.php:121
-msgid "Package upload error"
+msgid "Package upload error."
 msgstr ""
 
 #: Controller\Component\InstallerComponent.php:134
@@ -91,7 +91,7 @@ msgid "Unzip error."
 msgstr ""
 
 #: Controller\Component\InstallerComponent.php:154
-msgid "Invalid package structure after unzip"
+msgid "Invalid package structure after unzip."
 msgstr ""
 
 #: Controller\Component\InstallerComponent.php:170
@@ -110,8 +110,8 @@ msgstr ""
 msgid "Invalid module name (got \"%s\", expected: \"%s\")"
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:183;236
-msgid "Already Installed"
+#: Controller\Component\InstallerComponent.php:183
+msgid "Already installed"
 msgstr ""
 
 #: Controller\Component\InstallerComponent.php:184
@@ -178,6 +178,10 @@ msgstr ""
 msgid "Invalid theme name (got \"%s\", expected: \"%s\")"
 msgstr ""
 
+#: Controller\Component\InstallerComponent.php:236
+msgid "Already Installed"
+msgstr ""
+
 #: Controller\Component\InstallerComponent.php:237
 msgid "This theme is already installed"
 msgstr ""
@@ -234,67 +238,67 @@ msgstr ""
 msgid "Theme configuration file (%s) appears to be invalid."
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:355
+#: Controller\Component\InstallerComponent.php:356
 msgid "Required regions"
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:356
-msgid "Missing theme region(s) \"toolbar\" and/or \"help\". Are requied for backend themes."
+#: Controller\Component\InstallerComponent.php:357
+msgid "Missing theme region(s) \"toolbar\" and/or \"help\". Are required for backend themes."
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:363
+#: Controller\Component\InstallerComponent.php:364
 msgid "Invalid information file (.yaml)"
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:374;1585
+#: Controller\Component\InstallerComponent.php:375;1588
 msgid "This module is incompatible with your QuickApps version."
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:376;1587
+#: Controller\Component\InstallerComponent.php:377;1590
 msgid "This theme is incompatible with your QuickApps version."
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:387;1598
+#: Controller\Component\InstallerComponent.php:388;1601
 msgid "This module depends on other modules that you do not have or doesn't meet the version required: %s"
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:389;1600
+#: Controller\Component\InstallerComponent.php:390;1603
 msgid "This theme depends on other modules that you do not have or doesn't meet the version required: %s"
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:413
+#: Controller\Component\InstallerComponent.php:414
 msgid "invalid information file (.yaml). Field \"%s\""
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:417
+#: Controller\Component\InstallerComponent.php:418
 msgid "Invalid field \"%s\". Information file (.yaml) not found."
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:421
+#: Controller\Component\InstallerComponent.php:422
 msgid "Invalid field name \"%s\"."
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:583;1565
-msgid "Module does not exists."
+#: Controller\Component\InstallerComponent.php:584;1568
+msgid "Module does not exist."
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:587
+#: Controller\Component\InstallerComponent.php:588
 msgid "Core modules can not be uninstalled."
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:595
+#: Controller\Component\InstallerComponent.php:596
 msgid "This module can not be uninstalled, because it is required by: %s"
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:610
+#: Controller\Component\InstallerComponent.php:611
 msgid "This module can not be uninstalled because some files/folder can not be deleted, please check the permissions."
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:1153;1162
+#: Controller\Component\InstallerComponent.php:1155;1164
 msgid "path: %s, not writable"
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:1574
+#: Controller\Component\InstallerComponent.php:1577
 msgid "This module can not be disabled, because it is required by: %s"
 msgstr ""
 
@@ -302,7 +306,7 @@ msgstr ""
 msgid "Site offline"
 msgstr ""
 
-#: Controller\Component\QuickAppsComponent.php:308
+#: Controller\Component\QuickAppsComponent.php:315
 msgid "You are not authorized to access that location."
 msgstr ""
 
@@ -322,35 +326,35 @@ msgstr ""
 msgid "Block could not be cloned"
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:126;177
+#: Plugin\Block\Controller\ManageController.php:128;179
 msgid "Block has been saved"
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:128;180
+#: Plugin\Block\Controller\ManageController.php:130;182
 msgid "Block could not be saved. Please, try again."
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:146
+#: Plugin\Block\Controller\ManageController.php:148
 msgid "Editing Block"
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:149
+#: Plugin\Block\Controller\ManageController.php:151
 msgid "Editing block"
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:156
+#: Plugin\Block\Controller\ManageController.php:158
 msgid "Add new block"
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:159
+#: Plugin\Block\Controller\ManageController.php:161
 msgid "New block"
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:205
+#: Plugin\Block\Controller\ManageController.php:207
 msgid "Block has been deleted"
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:207
+#: Plugin\Block\Controller\ManageController.php:209
 msgid "Block could not be deleted"
 msgstr ""
 
@@ -601,11 +605,11 @@ msgstr ""
 msgid "Comment could not be deleted."
 msgstr ""
 
-#: Plugin\Comment\Model\Comment.php:111;121
+#: Plugin\Comment\Model\Comment.php:113;123
 msgid "Anonymous"
 msgstr ""
 
-#: Plugin\Comment\Model\Comment.php:218;234
+#: Plugin\Comment\Model\Comment.php:251;267
 msgid "No subject"
 msgstr ""
 
@@ -875,7 +879,7 @@ msgstr ""
 msgid "Message"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldDate\Model\Behavior\FieldDateHookBehavior.php:50
+#: Plugin\Field\Fields\FieldDate\Model\Behavior\FieldDateHookBehavior.php:51
 msgid "Date cannot be empty."
 msgstr ""
 
@@ -911,7 +915,7 @@ msgstr ""
 msgid "Error: %s"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldFile\Model\Behavior\FieldFileHookBehavior.php:138
+#: Plugin\Field\Fields\FieldFile\Model\Behavior\FieldFileHookBehavior.php:149
 msgid "You must upload at least one file."
 msgstr ""
 
@@ -946,7 +950,7 @@ msgid "Allowed extensions"
 msgstr ""
 
 #: Plugin\Field\Fields\FieldFile\View\Elements\settings_from.ctp:9
-msgid "Comma separated. i.e.: jpg,gif,png"
+msgid "Comma separated. e.g.: jpg,gif,png"
 msgstr ""
 
 #: Plugin\Field\Fields\FieldFile\View\Elements\settings_from.ctp:16
@@ -981,8 +985,8 @@ msgstr ""
 msgid "Size"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldList\Model\Behavior\FieldListHookBehavior.php:53
-#: Plugin\Taxonomy\Fields\TaxonomyTerms\Model\Behavior\TaxonomyTermsHookBehavior.php:160
+#: Plugin\Field\Fields\FieldList\Model\Behavior\FieldListHookBehavior.php:54
+#: Plugin\Taxonomy\Fields\TaxonomyTerms\Model\Behavior\TaxonomyTermsHookBehavior.php:165
 msgid "You must select at least one option."
 msgstr ""
 
@@ -1022,15 +1026,15 @@ msgstr ""
 msgid "The label is optional: if a line contains a single string, it will be used as key and label."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\Model\Behavior\FieldTextHookBehavior.php:73
+#: Plugin\Field\Fields\FieldText\Model\Behavior\FieldTextHookBehavior.php:74
 msgid "Max. %s characters length."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\Model\Behavior\FieldTextHookBehavior.php:84
+#: Plugin\Field\Fields\FieldText\Model\Behavior\FieldTextHookBehavior.php:85
 msgid "Field required."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\Model\Behavior\FieldTextHookBehavior.php:93
+#: Plugin\Field\Fields\FieldText\Model\Behavior\FieldTextHookBehavior.php:94
 msgid "Invalid field."
 msgstr ""
 
@@ -1052,11 +1056,11 @@ msgid "Trim length or read-more-cutter"
 msgstr ""
 
 #: Plugin\Field\Fields\FieldText\View\Elements\formatter_from.ctp:33
-msgid "Numeric value will convert content to plain text and then trim it to the especified number of chars. i.e.: 400"
+msgid "Numeric value will convert content to plain text and then trim it to the specified number of chars. e.g.: 400"
 msgstr ""
 
 #: Plugin\Field\Fields\FieldText\View\Elements\formatter_from.ctp:34
-msgid "String value will cut the content in two by the specified string, the first part will be displayed. i.e.: &lt;!-- readmore --&gt;"
+msgid "String value will cut the content in two by the specified string, the first part will be displayed. e.g.: &lt;!-- readmore --&gt;"
 msgstr ""
 
 #: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:7
@@ -1124,7 +1128,7 @@ msgid "Validation rule"
 msgstr ""
 
 #: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:89
-msgid "Enter your custom regular expression. i.e.: \"/^[a-z0-9]{3,}$/i\" (Only letters and integers, min 3 characters)"
+msgid "Enter your custom regular expression. e.g.: \"/^[a-z0-9]{3,}$/i\" (Only letters and integers, min 3 characters)"
 msgstr ""
 
 #: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:95
@@ -1196,19 +1200,19 @@ msgstr ""
 msgid "Save field"
 msgstr ""
 
-#: Plugin\Locale\Controller\LanguagesController.php:86;93
+#: Plugin\Locale\Controller\LanguagesController.php:88;95
 msgid "New language has been saved"
 msgstr ""
 
-#: Plugin\Locale\Controller\LanguagesController.php:89;96;109
+#: Plugin\Locale\Controller\LanguagesController.php:91;98;111
 msgid "Language could not be saved. Please, try again."
 msgstr ""
 
-#: Plugin\Locale\Controller\LanguagesController.php:106
+#: Plugin\Locale\Controller\LanguagesController.php:108
 msgid "Language has been saved"
 msgstr ""
 
-#: Plugin\Locale\Controller\LanguagesController.php:124;126
+#: Plugin\Locale\Controller\LanguagesController.php:126;128
 #: Plugin\Locale\View\Languages\admin_edit.ctp:15
 msgid "Editing language"
 msgstr ""
@@ -1220,19 +1224,19 @@ msgstr ""
 
 #: Plugin\Locale\Controller\PackagesController.php:25
 #: Plugin\Locale\View\Packages\admin_index.ctp:48
-#: Plugin\User\Controller\PermissionsController.php:61;324
+#: Plugin\User\Controller\PermissionsController.php:61;325
 msgid "Theme: %s"
 msgstr ""
 
 #: Plugin\Locale\Controller\PackagesController.php:27
 #: Plugin\Locale\View\Packages\admin_index.ctp:50
-#: Plugin\User\Controller\PermissionsController.php:59;322
+#: Plugin\User\Controller\PermissionsController.php:59;323
 msgid "Field: %s"
 msgstr ""
 
 #: Plugin\Locale\Controller\PackagesController.php:29
 #: Plugin\Locale\View\Packages\admin_index.ctp:52
-#: Plugin\User\Controller\PermissionsController.php:63;326
+#: Plugin\User\Controller\PermissionsController.php:63;327
 msgid "Module: %s"
 msgstr ""
 
@@ -1902,60 +1906,60 @@ msgstr ""
 msgid "Links"
 msgstr ""
 
-#: Plugin\Node\Controller\ContentsController.php:99
+#: Plugin\Node\Controller\ContentsController.php:101
 msgid "Contents"
 msgstr ""
 
-#: Plugin\Node\Controller\ContentsController.php:146
+#: Plugin\Node\Controller\ContentsController.php:148
 msgid "Translate Content"
 msgstr ""
 
-#: Plugin\Node\Controller\ContentsController.php:148
+#: Plugin\Node\Controller\ContentsController.php:150
 #: Plugin\Node\View\Contents\admin_translate.ctp:11
 msgid "Translating Content"
 msgstr ""
 
-#: Plugin\Node\Controller\ContentsController.php:163;249
+#: Plugin\Node\Controller\ContentsController.php:165;251
 msgid "Content has been saved"
 msgstr ""
 
-#: Plugin\Node\Controller\ContentsController.php:166;252
+#: Plugin\Node\Controller\ContentsController.php:168;254
 msgid "Content could not be saved. Please, try again."
 msgstr ""
 
-#: Plugin\Node\Controller\ContentsController.php:171
+#: Plugin\Node\Controller\ContentsController.php:173
 msgid "<b>Content type not found.</b><br/>You can't edit this undefined type of content."
 msgstr ""
 
-#: Plugin\Node\Controller\ContentsController.php:210
+#: Plugin\Node\Controller\ContentsController.php:212
 msgid "Missing parent content. This is a translated content, and reference a missing parent content."
 msgstr ""
 
-#: Plugin\Node\Controller\ContentsController.php:224
+#: Plugin\Node\Controller\ContentsController.php:226
 msgid "Editing Content"
 msgstr ""
 
-#: Plugin\Node\Controller\ContentsController.php:230;291
+#: Plugin\Node\Controller\ContentsController.php:232;293
 msgid "Add Content"
 msgstr ""
 
-#: Plugin\Node\Controller\ContentsController.php:233
+#: Plugin\Node\Controller\ContentsController.php:235
 msgid "Select content type"
 msgstr ""
 
-#: Plugin\Node\Controller\NodeController.php:177
+#: Plugin\Node\Controller\NodeController.php:182
 msgid "Page not found"
 msgstr ""
 
-#: Plugin\Node\Controller\NodeController.php:193
+#: Plugin\Node\Controller\NodeController.php:198
 msgid "Your comment has been queued for review by site administrators and will be published after approval."
 msgstr ""
 
-#: Plugin\Node\Controller\NodeController.php:195
+#: Plugin\Node\Controller\NodeController.php:200
 msgid "Your comment has been posted."
 msgstr ""
 
-#: Plugin\Node\Controller\NodeController.php:200
+#: Plugin\Node\Controller\NodeController.php:205
 msgid "Comment could not be saved. Please try again."
 msgstr ""
 
@@ -1983,55 +1987,55 @@ msgstr ""
 msgid "Content type has been deleted"
 msgstr ""
 
-#: Plugin\Node\Controller\TypesController.php:111;173
+#: Plugin\Node\Controller\TypesController.php:112;174
 msgid "Display"
 msgstr ""
 
-#: Plugin\Node\Controller\TypesController.php:113
+#: Plugin\Node\Controller\TypesController.php:114
 msgid "Display Settings"
 msgstr ""
 
-#: Plugin\Node\Controller\TypesController.php:131
+#: Plugin\Node\Controller\TypesController.php:132
 #: Plugin\User\Controller\FieldsController.php:44
 msgid "Field has been saved"
 msgstr ""
 
-#: Plugin\Node\Controller\TypesController.php:134
+#: Plugin\Node\Controller\TypesController.php:135
 #: Plugin\User\Controller\FieldsController.php:47
 msgid "Field could not be saved"
 msgstr ""
 
-#: Plugin\Node\Controller\TypesController.php:145;220;222
+#: Plugin\Node\Controller\TypesController.php:146;221;223
 #: Plugin\User\Controller\FieldsController.php:55
 msgid "Fields"
 msgstr ""
 
-#: Plugin\Node\Controller\TypesController.php:147
+#: Plugin\Node\Controller\TypesController.php:148
 #: Plugin\User\Controller\FieldsController.php:58
 msgid "Field Settings"
 msgstr ""
 
-#: Plugin\Node\Controller\TypesController.php:160
-#: Plugin\User\Controller\DisplayController.php:50
+#: Plugin\Node\Controller\TypesController.php:161
+#: Plugin\User\Controller\DisplayController.php:51
 msgid "Field has been saved."
 msgstr ""
 
-#: Plugin\Node\Controller\TypesController.php:163
-#: Plugin\User\Controller\DisplayController.php:53
+#: Plugin\Node\Controller\TypesController.php:164
+#: Plugin\User\Controller\DisplayController.php:54
 msgid "Field could not be saved. Please, try again."
 msgstr ""
 
-#: Plugin\Node\Controller\TypesController.php:174
-#: Plugin\User\Controller\DisplayController.php:63
+#: Plugin\Node\Controller\TypesController.php:175
+#: Plugin\User\Controller\DisplayController.php:64
 msgid "Field display settings"
 msgstr ""
 
-#: Plugin\Node\Controller\TypesController.php:176
-#: Plugin\User\Controller\DisplayController.php:65
+#: Plugin\Node\Controller\TypesController.php:177
+#: Plugin\User\Controller\DisplayController.php:66
 msgid "Field Display Settings"
 msgstr ""
 
-#: Plugin\Node\Controller\TypesController.php:202
+#: Plugin\Node\Controller\TypesController.php:203
 #: Plugin\User\Controller\FieldsController.php:27
 msgid "Field could not be created. Please, try again."
 msgstr ""
@@ -2593,7 +2597,7 @@ msgstr ""
 
 #: Plugin\Node\View\Types\admin_field_settings.ctp:6
 #: Plugin\User\View\Fields\admin_field_settings.ctp:6
-msgid "Requied field"
+msgid "Required field"
 msgstr ""
 
 #: Plugin\Node\View\Types\admin_field_settings.ctp:7
@@ -2838,7 +2842,7 @@ msgid "Help is available on the following items"
 msgstr ""
 
 #: Plugin\System\View\Helper\SystemHookHelper.php:37
-msgid "Powered by &copy; <a href=\"http://cms.quickapps.es/\">QuickApps CMS</a> v%s"
+msgid "Powered by &copy; <a href=\"http://www.quickappscms.org/\">QuickApps CMS</a> v%s"
 msgstr ""
 
 #: Plugin\System\View\Helper\SystemHookHelper.php:61
@@ -2862,7 +2866,7 @@ msgid "Add Your CSS"
 msgstr ""
 
 #: Plugin\System\View\Helper\ThemeCustomizerHelper.php:67
-msgid "Unknow property %d"
+msgid "Unknown property %d"
 msgstr ""
 
 #: Plugin\System\View\Helper\ThemeCustomizerHelper.php:190
@@ -2919,7 +2923,7 @@ msgid "Enable"
 msgstr ""
 
 #: Plugin\System\View\Modules\admin_index.ctp:98
-msgid "Delete selected module ? This change cant be undone!"
+msgid "Delete selected module ? This change can't be undone!"
 msgstr ""
 
 #: Plugin\System\View\Modules\admin_index.ctp:98
@@ -3000,7 +3004,7 @@ msgid "Logo image URL"
 msgstr ""
 
 #: Plugin\System\View\Themes\admin_settings.ctp:27
-msgid "Leave blank for use default logo."
+msgid "Leave blank to use default logo."
 msgstr ""
 
 #: Plugin\System\View\Themes\admin_settings.ctp:31
@@ -3008,7 +3012,7 @@ msgid "Shortcut icon URL"
 msgstr ""
 
 #: Plugin\System\View\Themes\admin_settings.ctp:32
-msgid "Leave blank for use default favicon."
+msgid "Leave blank to use default favicon."
 msgstr ""
 
 #: Plugin\Taxonomy\Controller\VocabulariesController.php:27
@@ -3037,35 +3041,35 @@ msgstr ""
 msgid "Editing Vocabulary \"%s\""
 msgstr ""
 
-#: Plugin\Taxonomy\Controller\VocabulariesController.php:140
+#: Plugin\Taxonomy\Controller\VocabulariesController.php:141
 msgid "Term has been created."
 msgstr ""
 
-#: Plugin\Taxonomy\Controller\VocabulariesController.php:143;194
+#: Plugin\Taxonomy\Controller\VocabulariesController.php:144;195
 msgid "Term could not be saved. Please, try again."
 msgstr ""
 
-#: Plugin\Taxonomy\Controller\VocabulariesController.php:160;205
+#: Plugin\Taxonomy\Controller\VocabulariesController.php:161;206
 msgid "Terms"
 msgstr ""
 
-#: Plugin\Taxonomy\Controller\VocabulariesController.php:162
+#: Plugin\Taxonomy\Controller\VocabulariesController.php:163
 msgid "%s Terms"
 msgstr ""
 
-#: Plugin\Taxonomy\Controller\VocabulariesController.php:190
+#: Plugin\Taxonomy\Controller\VocabulariesController.php:191
 msgid "Term has been saved."
 msgstr ""
 
-#: Plugin\Taxonomy\Controller\VocabulariesController.php:206
+#: Plugin\Taxonomy\Controller\VocabulariesController.php:207
 msgid "Editing term"
 msgstr ""
 
-#: Plugin\Taxonomy\Controller\VocabulariesController.php:208
+#: Plugin\Taxonomy\Controller\VocabulariesController.php:209
 msgid "Editing term \"%s\""
 msgstr ""
 
-#: Plugin\Taxonomy\Fields\TaxonomyTerms\Model\Behavior\TaxonomyTermsHookBehavior.php:147
+#: Plugin\Taxonomy\Fields\TaxonomyTerms\Model\Behavior\TaxonomyTermsHookBehavior.php:152
 msgid "This field cannot hold more than 2 values."
 msgstr ""
 
@@ -3210,12 +3214,12 @@ msgstr ""
 msgid "Parent term"
 msgstr ""
 
-#: Plugin\User\Controller\DisplayController.php:40
+#: Plugin\User\Controller\DisplayController.php:41
 #: Plugin\User\View\Elements\toolbar.ctp:8
 msgid "Manage Display"
 msgstr ""
 
-#: Plugin\User\Controller\DisplayController.php:42;62
+#: Plugin\User\Controller\DisplayController.php:43;63
 msgid "User Display Settings"
 msgstr ""
 
@@ -3232,37 +3236,37 @@ msgstr ""
 msgid "Field settings"
 msgstr ""
 
-#: Plugin\User\Controller\ListController.php:67
+#: Plugin\User\Controller\ListController.php:69
 #: Plugin\User\View\Elements\toolbar.ctp:3
 #: Vendor\DummyLocale.php:13
 msgid "Users"
 msgstr ""
 
-#: Plugin\User\Controller\ListController.php:134;185
-#: Plugin\User\Controller\UserController.php:153
+#: Plugin\User\Controller\ListController.php:136;187
+#: Plugin\User\Controller\UserController.php:154
 msgid "User has been saved"
 msgstr ""
 
-#: Plugin\User\Controller\ListController.php:137;188
-#: Plugin\User\Controller\UserController.php:57;156
+#: Plugin\User\Controller\ListController.php:139;190
+#: Plugin\User\Controller\UserController.php:57;157
 msgid "User could not be saved. Please, try again."
 msgstr ""
 
-#: Plugin\User\Controller\ListController.php:151
+#: Plugin\User\Controller\ListController.php:153
 msgid "Add User"
 msgstr ""
 
-#: Plugin\User\Controller\ListController.php:154
+#: Plugin\User\Controller\ListController.php:156
 #: Plugin\User\View\Elements\toolbar.ctp:4
 #: Plugin\User\View\List\admin_add.ctp:3
 msgid "Add new user"
 msgstr ""
 
-#: Plugin\User\Controller\ListController.php:206
+#: Plugin\User\Controller\ListController.php:208
 msgid "Editing User"
 msgstr ""
 
-#: Plugin\User\Controller\ListController.php:209
+#: Plugin\User\Controller\ListController.php:211
 msgid "Editing user"
 msgstr ""
 
@@ -3306,7 +3310,7 @@ msgid "Login"
 msgstr ""
 
 #: Plugin\User\Controller\UserController.php:50
-msgid "Registration complete. A welcome message has been sent to your e-mail address with instructions about how to active your account."
+msgid "Registration complete. A welcome message has been sent to your e-mail address with instructions on how to active your account."
 msgstr ""
 
 #: Plugin\User\Controller\UserController.php:63
@@ -3319,33 +3323,33 @@ msgstr ""
 msgid "Create new user account"
 msgstr ""
 
-#: Plugin\User\Controller\UserController.php:120
+#: Plugin\User\Controller\UserController.php:121
 msgid "Further instructions have been sent to your e-mail address."
 msgstr ""
 
-#: Plugin\User\Controller\UserController.php:125
+#: Plugin\User\Controller\UserController.php:126
 msgid "invalid email"
 msgstr ""
 
-#: Plugin\User\Controller\UserController.php:126
+#: Plugin\User\Controller\UserController.php:127
 msgid "Sorry, %s is not recognized as e-mail address."
 msgstr ""
 
-#: Plugin\User\Controller\UserController.php:132
+#: Plugin\User\Controller\UserController.php:133
 #: Plugin\User\View\Elements\user_login_block.ctp:15
 #: Plugin\User\View\User\password_recovery.ctp:3
 msgid "Request new password"
 msgstr ""
 
-#: Plugin\User\Controller\UserController.php:141
+#: Plugin\User\Controller\UserController.php:142
 msgid "%s profile"
 msgstr ""
 
-#: Plugin\User\Controller\UserController.php:205
+#: Plugin\User\Controller\UserController.php:206
 msgid "Invalid username or password"
 msgstr ""
 
-#: Plugin\User\Controller\UserController.php:217
+#: Plugin\User\Controller\UserController.php:218
 msgid "Logout successful."
 msgstr ""
 
@@ -3358,15 +3362,15 @@ msgid "This message has been marked as \"do not notify\"."
 msgstr ""
 
 #: Plugin\User\Controller\Component\MailerComponent.php:87;103
-msgid "Email could not be send."
+msgid "Email could not be sent."
 msgstr ""
 
 #: Plugin\User\Controller\Component\MailerComponent.php:92;106
 msgid "Invalid message preset."
 msgstr ""
 
-#: Plugin\User\Model\User.php:118
-msgid "Password missmatch."
+#: Plugin\User\Model\User.php:119
+msgid "Password mismatch."
 msgstr ""
 
 #: Plugin\User\View\Display\admin_index.ctp:38
@@ -3679,12 +3683,12 @@ msgid "My account"
 msgstr ""
 
 #: Vendor\DummyLocale.php:24
-#: View\Helper\TableHelper.php:100
+#: View\Helper\TableHelper.php:133
 msgid "« Previous "
 msgstr ""
 
 #: Vendor\DummyLocale.php:25
-#: View\Helper\TableHelper.php:101
+#: View\Helper\TableHelper.php:134
 msgid " Next »"
 msgstr ""
 
@@ -3817,7 +3821,7 @@ msgid "Header"
 msgstr ""
 
 #: Vendor\DummyLocale.php:80
-msgid "Main menu backrgound"
+msgid "Main menu background"
 msgstr ""
 
 #: Vendor\DummyLocale.php:81
@@ -3916,7 +3920,7 @@ msgid "Error"
 msgstr ""
 
 #: View\Errors\error400.ctp:5
-msgid "The requested address %s was not found. <br/> There are no translations available or you have not the sufficient permissions."
+msgid "The requested address %s was not found. <br/> There are no translations available or you don't have sufficient permissions."
 msgstr ""
 
 #: View\Errors\error400.ctp:6
@@ -4049,7 +4053,7 @@ msgid "Real Name"
 msgstr ""
 
 #: View\Install\user_account.ctp:16
-msgid "You real name."
+msgid "Your real name."
 msgstr ""
 
 #: View\Install\user_account.ctp:28
@@ -4089,7 +4093,7 @@ msgid "Image slider folder"
 msgstr ""
 
 #: View\Themed\Default\app\ThemeDefault\View\Elements\settings.ctp:3
-msgid "Recomended images size:"
+msgid "Recommended images size:"
 msgstr ""
 
 #: View\Themed\Default\app\ThemeDefault\View\Elements\theme_default_slider_settings.ctp:2
@@ -4097,7 +4101,7 @@ msgid "Enter one image per line, in the format <b>file name|url|caption</b>. e.g
 msgstr ""
 
 #: View\Themed\Default\app\ThemeDefault\View\Elements\theme_default_slider_settings.ctp:9
-msgid "Image files should be stoted in /files/<b>%s</b>, you can change this folder in the <a href=\"%s\">theme settings panel</a>"
+msgid "Image files should be stored in /files/<b>%s</b>, you can change this folder in the <a href=\"%s\">theme settings panel</a>"
 msgstr ""
 
 #: View\Themed\Default\app\ThemeDefault\View\Elements\theme_default_slider_settings.ctp:10
