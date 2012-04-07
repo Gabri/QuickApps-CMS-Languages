@@ -3016,7 +3016,7 @@ msgstr "Abilita"
 
 #: Plugin\System\View\Modules\admin_index.ctp:98
 #, fuzzy
-msgid "Delete selected module ? This change can't be undone!"
+msgid "Delete selected module ? This change cannot be undone!"
 msgstr "Eliminare il modulo selezionato ? Questa operazione non può essere annullata!"
 
 #: Plugin\System\View\Modules\admin_index.ctp:98

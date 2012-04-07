@@ -2923,7 +2923,7 @@ msgid "Enable"
 msgstr ""
 
 #: Plugin\System\View\Modules\admin_index.ctp:98
-msgid "Delete selected module ? This change can't be undone!"
+msgid "Delete selected module ? This change cannot be undone!"
 msgstr ""
 
 #: Plugin\System\View\Modules\admin_index.ctp:98

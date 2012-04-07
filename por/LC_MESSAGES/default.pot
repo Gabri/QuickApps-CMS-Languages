@@ -3068,7 +3068,7 @@ msgstr "Ativarr"
 
 #: Plugin\System\View\Modules\admin_index.ctp:98
 #, fuzzy
-msgid "Delete selected module ? This change can't be undone!"
+msgid "Delete selected module ? This change cannot be undone!"
 msgstr "Excluir o mÃ³dulo selecionado? Esta operaÃ§Ã£o nÃ£o pode ser revertida!"
 
 #: Plugin\System\View\Modules\admin_index.ctp:98
