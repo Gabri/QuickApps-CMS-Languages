@@ -73,6 +73,10 @@ msgstr "Config/core.php Verzeichnis ist nicht beschreibar"
 msgid "Could not connect to database."
 msgstr "Keine Verbindung zur Datenbank"
 
+#: Controller\InstallController.php:158
+msgid "A QuickApps CMS database already exists, please drop it or change the prefix."
+msgstr ""
+
 #: Controller\InstallController.php:202
 #, fuzzy
 msgid "Could not dump database."

@@ -60,6 +60,10 @@ msgstr "Arquivo \"Config/routes.php\" nÃ£o encontrado"
 msgid "Could not connect to database."
 msgstr ""
 
+#: Controller\InstallController.php:158
+msgid "A QuickApps CMS database already exists, please drop it or change the prefix."
+msgstr ""
+
 #: Controller\InstallController.php:202
 msgid "Could not dump database."
 msgstr ""
