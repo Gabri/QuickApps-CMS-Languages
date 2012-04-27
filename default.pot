@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2012-03-25 21:48+0000\n"
+"POT-Creation-Date: 2012-04-27 21:44+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -66,19 +66,19 @@ msgstr ""
 msgid "A QuickApps CMS database already exists, please drop it or change the prefix."
 msgstr ""
 
-#: Controller\InstallController.php:202
+#: Controller\InstallController.php:210
 msgid "Could not dump database."
 msgstr ""
 
-#: Controller\InstallController.php:205
+#: Controller\InstallController.php:213
 msgid "Could not write database.php file."
 msgstr ""
 
-#: Controller\InstallController.php:241
+#: Controller\InstallController.php:249
 msgid "Could not create new user, please try again."
 msgstr ""
 
-#: Controller\InstallController.php:263
+#: Controller\InstallController.php:271
 msgid "Could not write 'install' file. Check file/folder permissions and refresh this page."
 msgstr ""
 
@@ -254,19 +254,19 @@ msgstr ""
 msgid "Invalid information file (.yaml)"
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:375;1588
+#: Controller\Component\InstallerComponent.php:375;1591
 msgid "This module is incompatible with your QuickApps version."
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:377;1590
+#: Controller\Component\InstallerComponent.php:377;1593
 msgid "This theme is incompatible with your QuickApps version."
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:388;1601
+#: Controller\Component\InstallerComponent.php:388;1604
 msgid "This module depends on other modules that you do not have or doesn't meet the version required: %s"
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:390;1603
+#: Controller\Component\InstallerComponent.php:390;1606
 msgid "This theme depends on other modules that you do not have or doesn't meet the version required: %s"
 msgstr ""
 
@@ -282,7 +282,7 @@ msgstr ""
 msgid "Invalid field name \"%s\"."
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:584;1568
+#: Controller\Component\InstallerComponent.php:584;1571
 msgid "Module does not exist."
 msgstr ""
 
@@ -298,67 +298,67 @@ msgstr ""
 msgid "This module can not be uninstalled because some files/folder can not be deleted, please check the permissions."
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:1155;1164
+#: Controller\Component\InstallerComponent.php:1156;1165
 msgid "path: %s, not writable"
 msgstr ""
 
-#: Controller\Component\InstallerComponent.php:1577
+#: Controller\Component\InstallerComponent.php:1580
 msgid "This module can not be disabled, because it is required by: %s"
 msgstr ""
 
-#: Controller\Component\QuickAppsComponent.php:79
+#: Controller\Component\QuickAppsComponent.php:107
 msgid "Site offline"
 msgstr ""
 
-#: Controller\Component\QuickAppsComponent.php:315
+#: Controller\Component\QuickAppsComponent.php:351
 msgid "You are not authorized to access that location."
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:71
+#: Plugin\Block\Controller\ManageController.php:72
 msgid "Blocks"
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:92
+#: Plugin\Block\Controller\ManageController.php:93
 msgid "Clone"
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:98
+#: Plugin\Block\Controller\ManageController.php:99
 msgid "Block has been cloned"
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:101
+#: Plugin\Block\Controller\ManageController.php:102
 msgid "Block could not be cloned"
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:128;179
+#: Plugin\Block\Controller\ManageController.php:129;180
 msgid "Block has been saved"
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:130;182
+#: Plugin\Block\Controller\ManageController.php:131;183
 msgid "Block could not be saved. Please, try again."
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:148
+#: Plugin\Block\Controller\ManageController.php:149
 msgid "Editing Block"
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:151
+#: Plugin\Block\Controller\ManageController.php:152
 msgid "Editing block"
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:158
+#: Plugin\Block\Controller\ManageController.php:159
 msgid "Add new block"
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:161
+#: Plugin\Block\Controller\ManageController.php:162
 msgid "New block"
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:207
+#: Plugin\Block\Controller\ManageController.php:208
 msgid "Block has been deleted"
 msgstr ""
 
-#: Plugin\Block\Controller\ManageController.php:209
+#: Plugin\Block\Controller\ManageController.php:210
 msgid "Block could not be deleted"
 msgstr ""
 
@@ -403,6 +403,7 @@ msgstr ""
 #: Plugin\Comment\View\Elements\settings.ctp:33
 #: Plugin\Locale\View\Elements\locale_language_switcher.ctp:58
 #: Plugin\Locale\View\Packages\admin_index.ctp:28
+#: Plugin\Locale\View\Translations\admin_import.ctp:16
 #: Plugin\Node\View\Contents\admin_add.ctp:23;24
 #: Plugin\Node\View\Contents\admin_edit.ctp:36;37
 #: Plugin\Node\View\Contents\admin_index.ctp:33;117
@@ -525,31 +526,32 @@ msgid "Save block"
 msgstr ""
 
 #: Plugin\Block\View\Manage\admin_edit.ctp:5
-#: Plugin\Locale\View\Languages\admin_edit.ctp:17
+#: Plugin\Locale\View\Languages\admin_edit.ctp:21
 #: Plugin\User\View\List\admin_add.ctp:4
 #: Plugin\User\View\List\admin_edit.ctp:4
 msgid "Active"
 msgstr ""
 
-#: Plugin\Block\View\Manage\admin_index.ctp:98;209;271
+#: Plugin\Block\View\Manage\admin_index.ctp:99;211;274
 msgid "Duplicate this block?"
 msgstr ""
 
-#: Plugin\Block\View\Manage\admin_index.ctp:98;209;271
+#: Plugin\Block\View\Manage\admin_index.ctp:99;211;274
 msgid "clone"
 msgstr ""
 
-#: Plugin\Block\View\Manage\admin_index.ctp:99;210;272
+#: Plugin\Block\View\Manage\admin_index.ctp:100;212;275
 #: Plugin\Node\View\Types\admin_fields.ctp:21
 #: Plugin\User\View\Fields\admin_index.ctp:21
 msgid "configure"
 msgstr ""
 
-#: Plugin\Block\View\Manage\admin_index.ctp:101;212;274
+#: Plugin\Block\View\Manage\admin_index.ctp:102;214;277
 msgid "Delete selected block ?"
 msgstr ""
 
-#: Plugin\Block\View\Manage\admin_index.ctp:101;212;274
+#: Plugin\Block\View\Manage\admin_index.ctp:102;214;277
+#: Plugin\Locale\View\Translations\admin_fuzzy_list.ctp:14
 #: Plugin\Locale\View\Translations\admin_list.ctp:12
 #: Plugin\Menu\View\Elements\menu_link_node.ctp:4
 #: Plugin\Node\View\Contents\admin_edit.ctp:118
@@ -564,12 +566,12 @@ msgstr ""
 msgid "delete"
 msgstr ""
 
-#: Plugin\Block\View\Manage\admin_index.ctp:223
+#: Plugin\Block\View\Manage\admin_index.ctp:225
 msgid "Unassigned or Disabled"
 msgstr ""
 
-#: Plugin\Block\View\Manage\admin_index.ctp:283
-#: Plugin\System\View\Configuration\admin_index.ctp:68
+#: Plugin\Block\View\Manage\admin_index.ctp:286
+#: Plugin\System\View\Configuration\admin_index.ctp:130
 #: Plugin\System\View\Modules\admin_settings.ctp:6
 msgid "Save all"
 msgstr ""
@@ -714,7 +716,7 @@ msgid "Mark as SPAM"
 msgstr ""
 
 #: Plugin\Comment\View\Elements\settings.ctp:89
-#: Plugin\Comment\View\Helper\CommentHookHelper.php:160
+#: Plugin\Comment\View\Helper\CommentHookHelper.php:162
 msgid "Delete"
 msgstr ""
 
@@ -730,15 +732,15 @@ msgstr ""
 msgid "Unpublished (%s)"
 msgstr ""
 
-#: Plugin\Comment\View\Helper\CommentHookHelper.php:129
+#: Plugin\Comment\View\Helper\CommentHookHelper.php:131
 msgid "Invalid security code."
 msgstr ""
 
-#: Plugin\Comment\View\Helper\CommentHookHelper.php:156
+#: Plugin\Comment\View\Helper\CommentHookHelper.php:158
 msgid "Details"
 msgstr ""
 
-#: Plugin\Comment\View\Helper\CommentHookHelper.php:160
+#: Plugin\Comment\View\Helper\CommentHookHelper.php:162
 msgid "Delete selected comment ?"
 msgstr ""
 
@@ -887,27 +889,27 @@ msgstr ""
 msgid "Date cannot be empty."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldDate\View\Elements\settings_from.ctp:5
+#: Plugin\Field\Fields\FieldDate\View\Elements\settings_form.ctp:5
 msgid "Date format"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldDate\View\Elements\settings_from.ctp:12
+#: Plugin\Field\Fields\FieldDate\View\Elements\settings_form.ctp:12
 msgid "Display button bar"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldDate\View\Elements\settings_from.ctp:19
+#: Plugin\Field\Fields\FieldDate\View\Elements\settings_form.ctp:19
 msgid "Display month & year menu"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldDate\View\Elements\settings_from.ctp:26
+#: Plugin\Field\Fields\FieldDate\View\Elements\settings_form.ctp:26
 msgid "Show week of the year"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldDate\View\Elements\settings_from.ctp:41
+#: Plugin\Field\Fields\FieldDate\View\Elements\settings_form.ctp:41
 msgid "Display multiple months"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldDate\View\Elements\settings_from.ctp:115
+#: Plugin\Field\Fields\FieldDate\View\Elements\settings_form.ctp:115
 msgid "Localize"
 msgstr ""
 
@@ -937,55 +939,55 @@ msgstr ""
 msgid "Allowed file types: <b>%s</b>."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldFile\View\Elements\formatter_from.ctp:10
+#: Plugin\Field\Fields\FieldFile\View\Elements\formatter_form.ctp:5
 msgid "Link to file"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldFile\View\Elements\formatter_from.ctp:11
+#: Plugin\Field\Fields\FieldFile\View\Elements\formatter_form.ctp:6
 msgid "Table of Files"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldFile\View\Elements\formatter_from.ctp:12
+#: Plugin\Field\Fields\FieldFile\View\Elements\formatter_form.ctp:7
 msgid "File URL"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldFile\View\Elements\settings_from.ctp:5
+#: Plugin\Field\Fields\FieldFile\View\Elements\settings_form.ctp:5
 msgid "Allowed extensions"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldFile\View\Elements\settings_from.ctp:9
+#: Plugin\Field\Fields\FieldFile\View\Elements\settings_form.ctp:9
 msgid "Comma separated. e.g.: jpg,gif,png"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldFile\View\Elements\settings_from.ctp:16
+#: Plugin\Field\Fields\FieldFile\View\Elements\settings_form.ctp:16
 msgid "Number of files"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldFile\View\Elements\settings_from.ctp:20
+#: Plugin\Field\Fields\FieldFile\View\Elements\settings_form.ctp:20
 msgid "Maximum number of files users can upload for this field."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldFile\View\Elements\settings_from.ctp:26
+#: Plugin\Field\Fields\FieldFile\View\Elements\settings_form.ctp:26
 msgid "Upload folder"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldFile\View\Elements\settings_from.ctp:30
+#: Plugin\Field\Fields\FieldFile\View\Elements\settings_form.ctp:30
 msgid "Optional subdirectory within the upload destination where files will be stored. Do not include preceding or trailing slashes."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldFile\View\Elements\settings_from.ctp:36
+#: Plugin\Field\Fields\FieldFile\View\Elements\settings_form.ctp:36
 msgid "Enable Description field"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldFile\View\Elements\settings_from.ctp:40
+#: Plugin\Field\Fields\FieldFile\View\Elements\settings_form.ctp:40
 msgid "The description field allows users to enter a description about the uploaded file."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldFile\View\Helper\FieldFileHookHelper.php:81
+#: Plugin\Field\Fields\FieldFile\View\Helper\FieldFileHookHelper.php:87
 msgid "Attachment"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldFile\View\Helper\FieldFileHookHelper.php:82
+#: Plugin\Field\Fields\FieldFile\View\Helper\FieldFileHookHelper.php:88
 msgid "Size"
 msgstr ""
 
@@ -994,157 +996,161 @@ msgstr ""
 msgid "You must select at least one option."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldList\View\Elements\formatter_from.ctp:10
+#: Plugin\Field\Fields\FieldList\View\Elements\formatter_form.ctp:10
 msgid "Default"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldList\View\Elements\formatter_from.ctp:11
+#: Plugin\Field\Fields\FieldList\View\Elements\formatter_form.ctp:11
 msgid "Key"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldList\View\Elements\settings_from.ctp:5
+#: Plugin\Field\Fields\FieldList\View\Elements\settings_form.ctp:5
 msgid "Radio buttons"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldList\View\Elements\settings_from.ctp:5
+#: Plugin\Field\Fields\FieldList\View\Elements\settings_form.ctp:5
 msgid "Checkboxes"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldList\View\Elements\settings_from.ctp:7
+#: Plugin\Field\Fields\FieldList\View\Elements\settings_form.ctp:7
 msgid "List Type"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldList\View\Elements\settings_from.ctp:14
+#: Plugin\Field\Fields\FieldList\View\Elements\settings_form.ctp:14
 msgid "Options"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldList\View\Elements\settings_from.ctp:20
+#: Plugin\Field\Fields\FieldList\View\Elements\settings_form.ctp:20
 msgid "The possible values this field can contain. Enter one value per line, in the format <b>key|label</b>."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldList\View\Elements\settings_from.ctp:21
+#: Plugin\Field\Fields\FieldList\View\Elements\settings_form.ctp:21
 msgid "The key is the stored value. The label will be used in displayed values and edit forms."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldList\View\Elements\settings_from.ctp:22
+#: Plugin\Field\Fields\FieldList\View\Elements\settings_form.ctp:22
 msgid "The label is optional: if a line contains a single string, it will be used as key and label."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\Model\Behavior\FieldTextHookBehavior.php:74
+#: Plugin\Field\Fields\FieldText\Model\Behavior\FieldTextHookBehavior.php:57
 msgid "Max. %s characters length."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\Model\Behavior\FieldTextHookBehavior.php:85
+#: Plugin\Field\Fields\FieldText\Model\Behavior\FieldTextHookBehavior.php:68
 msgid "Field required."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\Model\Behavior\FieldTextHookBehavior.php:94
+#: Plugin\Field\Fields\FieldText\Model\Behavior\FieldTextHookBehavior.php:77
 msgid "Invalid field."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\formatter_from.ctp:11
+#: Plugin\Field\Fields\FieldText\View\Elements\formatter_form.ctp:11
 msgid "Full"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\formatter_from.ctp:12
-#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\formatter_from.ctp:10
+#: Plugin\Field\Fields\FieldText\View\Elements\formatter_form.ctp:12
+#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\formatter_form.ctp:10
 msgid "Plain"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\formatter_from.ctp:13
+#: Plugin\Field\Fields\FieldText\View\Elements\formatter_form.ctp:13
 msgid "Trimmed"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\formatter_from.ctp:27
+#: Plugin\Field\Fields\FieldText\View\Elements\formatter_form.ctp:27
 msgid "Trim length or read-more-cutter"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\formatter_from.ctp:33
+#: Plugin\Field\Fields\FieldText\View\Elements\formatter_form.ctp:33
 msgid "Numeric value will convert content to plain text and then trim it to the specified number of chars. e.g.: 400"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\formatter_from.ctp:34
+#: Plugin\Field\Fields\FieldText\View\Elements\formatter_form.ctp:34
 msgid "String value will cut the content in two by the specified string, the first part will be displayed. e.g.: &lt;!-- readmore --&gt;"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:7
+#: Plugin\Field\Fields\FieldText\View\Elements\settings_form.ctp:7
 msgid "Text field"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:8
+#: Plugin\Field\Fields\FieldText\View\Elements\settings_form.ctp:8
 msgid "Long text"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:10
+#: Plugin\Field\Fields\FieldText\View\Elements\settings_form.ctp:10
 msgid "Type of content"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:20;32
+#: Plugin\Field\Fields\FieldText\View\Elements\settings_form.ctp:20;32
 msgid "Plain text"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:21;41
+#: Plugin\Field\Fields\FieldText\View\Elements\settings_form.ctp:21;41
 msgid "Full HTML"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:22;48
+#: Plugin\Field\Fields\FieldText\View\Elements\settings_form.ctp:22;48
 msgid "Filtered HTML"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:23;57
+#: Plugin\Field\Fields\FieldText\View\Elements\settings_form.ctp:23;57
 msgid "Markdown"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:25
+#: Plugin\Field\Fields\FieldText\View\Elements\settings_form.ctp:25
 msgid "Text processing"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:34
+#: Plugin\Field\Fields\FieldText\View\Elements\settings_form.ctp:34
 msgid "No HTML tags allowed."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:35;43;50
+#: Plugin\Field\Fields\FieldText\View\Elements\settings_form.ctp:35;43;50
 msgid "Web page addresses and e-mail addresses turn into links automatically."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:36;52
+#: Plugin\Field\Fields\FieldText\View\Elements\settings_form.ctp:36;52
 msgid "Lines and paragraphs break automatically."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:51
+#: Plugin\Field\Fields\FieldText\View\Elements\settings_form.ctp:51
 msgid "Allowed HTML tags: &lt;a&gt; &lt;em&gt; &lt;strong&gt; &lt;cite&gt; &lt;blockquote&gt; &lt;code&gt; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;dl&gt; &lt;dt&gt; &lt;dd&gt;"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:59
+#: Plugin\Field\Fields\FieldText\View\Elements\settings_form.ctp:59
 msgid "<a href=\"%s\" target=\"_blank\">Markdown</a> text format allowed only."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:75
+#: Plugin\Field\Fields\FieldText\View\Elements\settings_form.ctp:75
 msgid "Max lenght"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:79
+#: Plugin\Field\Fields\FieldText\View\Elements\settings_form.ctp:79
 msgid "This is only used if your Type of content is a `Text field`. This will limit the subscriber to typing X number of characters in your textbox."
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:85
+#: Plugin\Field\Fields\FieldText\View\Elements\settings_form.ctp:85
 msgid "Validation rule"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:89
+#: Plugin\Field\Fields\FieldText\View\Elements\settings_form.ctp:89
 msgid "Enter your custom regular expression. e.g.: \"/^[a-z0-9]{3,}$/i\" (Only letters and integers, min 3 characters)"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:95
+#: Plugin\Field\Fields\FieldText\View\Elements\settings_form.ctp:95
 msgid "Validation message"
 msgstr ""
 
-#: Plugin\Field\Fields\FieldText\View\Elements\settings_from.ctp:99
+#: Plugin\Field\Fields\FieldText\View\Elements\settings_form.ctp:99
 msgid "This is only used if `Validation rule` has been set."
 msgstr ""
 
 #: Plugin\Field\Fields\FieldText\View\Helper\FieldTextHookHelper.php:174
 msgid "Turn on JavaScript to see the email address."
+msgstr ""
+
+#: Plugin\Field\Model\Field.php:89
+msgid "This field is locked and cannot be modified"
 msgstr ""
 
 #: Plugin\Field\View\Elements\display_settings.ctp:15
@@ -1178,7 +1184,7 @@ msgstr ""
 
 #: Plugin\Field\View\Elements\display_settings.ctp:39
 #: Plugin\Node\View\Types\admin_fields.ctp:17
-#: Plugin\System\View\Configuration\admin_index.ctp:18;38
+#: Plugin\System\View\Configuration\admin_index.ctp:18;38;71
 #: Plugin\Taxonomy\View\Elements\taxonomy_vocabularies_settings.ctp:20;28
 #: Plugin\User\View\Fields\admin_index.ctp:17
 msgid "Yes"
@@ -1186,7 +1192,7 @@ msgstr ""
 
 #: Plugin\Field\View\Elements\display_settings.ctp:39
 #: Plugin\Node\View\Types\admin_fields.ctp:17
-#: Plugin\System\View\Configuration\admin_index.ctp:18;38
+#: Plugin\System\View\Configuration\admin_index.ctp:18;38;70
 #: Plugin\Taxonomy\View\Elements\taxonomy_vocabularies_settings.ctp:20;28
 #: Plugin\User\View\Fields\admin_index.ctp:17
 msgid "No"
@@ -1217,7 +1223,7 @@ msgid "Language has been saved"
 msgstr ""
 
 #: Plugin\Locale\Controller\LanguagesController.php:126;128
-#: Plugin\Locale\View\Languages\admin_edit.ctp:15
+#: Plugin\Locale\View\Languages\admin_edit.ctp:19
 msgid "Editing language"
 msgstr ""
 
@@ -1228,19 +1234,19 @@ msgstr ""
 
 #: Plugin\Locale\Controller\PackagesController.php:25
 #: Plugin\Locale\View\Packages\admin_index.ctp:48
-#: Plugin\User\Controller\PermissionsController.php:61;325
+#: Plugin\User\Controller\PermissionsController.php:60;324
 msgid "Theme: %s"
 msgstr ""
 
 #: Plugin\Locale\Controller\PackagesController.php:27
 #: Plugin\Locale\View\Packages\admin_index.ctp:50
-#: Plugin\User\Controller\PermissionsController.php:59;323
+#: Plugin\User\Controller\PermissionsController.php:58;322
 msgid "Field: %s"
 msgstr ""
 
 #: Plugin\Locale\Controller\PackagesController.php:29
 #: Plugin\Locale\View\Packages\admin_index.ctp:52
-#: Plugin\User\Controller\PermissionsController.php:63;327
+#: Plugin\User\Controller\PermissionsController.php:62;326
 msgid "Module: %s"
 msgstr ""
 
@@ -1273,7 +1279,7 @@ msgstr ""
 msgid "Language package upload success"
 msgstr ""
 
-#: Plugin\Locale\Controller\TranslationsController.php:49;67;84
+#: Plugin\Locale\Controller\TranslationsController.php:49;111;141;252
 #: Plugin\Locale\View\Elements\toolbar.ctp:4
 msgid "Translatable entries"
 msgstr ""
@@ -1282,39 +1288,60 @@ msgstr ""
 msgid "Translatable Entries"
 msgstr ""
 
-#: Plugin\Locale\Controller\TranslationsController.php:57;75
+#: Plugin\Locale\Controller\TranslationsController.php:89
+msgid "Fuzzy entry has been deleted."
+msgstr ""
+
+#: Plugin\Locale\Controller\TranslationsController.php:91
+msgid "Fuzzy entry was not found."
+msgstr ""
+
+#: Plugin\Locale\Controller\TranslationsController.php:101;119
 msgid "Entry has been saved"
 msgstr ""
 
-#: Plugin\Locale\Controller\TranslationsController.php:60;78
+#: Plugin\Locale\Controller\TranslationsController.php:104;127
 msgid "Entry could not be saved. Please, try again."
 msgstr ""
 
-#: Plugin\Locale\Controller\TranslationsController.php:69
+#: Plugin\Locale\Controller\TranslationsController.php:113
 msgid "Editing entry"
 msgstr ""
 
-#: Plugin\Locale\Controller\TranslationsController.php:86
+#: Plugin\Locale\Controller\TranslationsController.php:143
 msgid "Add new entry"
 msgstr ""
 
-#: Plugin\Locale\Lib\QALocale.php:44
+#: Plugin\Locale\Controller\TranslationsController.php:244
+msgid "%s entries has been imported."
+msgstr ""
+
+#: Plugin\Locale\Controller\TranslationsController.php:253
+#: Plugin\Locale\View\Translations\admin_import.ctp:2;22
+msgid "Import entries"
+msgstr ""
+
+#: Plugin\Locale\Controller\TranslationsController.php:255
+msgid "Import Entries"
+msgstr ""
+
+#: Plugin\Locale\Lib\QALocale.php:59
 msgid "- None selected -"
 msgstr ""
 
-#: Plugin\Locale\Lib\QALocale.php:48
+#: Plugin\Locale\Lib\QALocale.php:63
 msgid "%s: %s"
 msgstr ""
 
-#: Plugin\Locale\Lib\QALocale.php:48;74
+#: Plugin\Locale\Lib\QALocale.php:63;89
 msgid "l, F j, Y - H:i"
 msgstr ""
 
-#: Plugin\Locale\Lib\QALocale.php:70
+#: Plugin\Locale\Lib\QALocale.php:85
 msgid "m/d/Y - H:i"
 msgstr ""
 
-#: Plugin\Locale\Lib\QALocale.php:83
+#: Plugin\Locale\Lib\QALocale.php:98
 msgid "D, m/d/Y - H:i"
 msgstr ""
 
@@ -1356,67 +1383,76 @@ msgstr ""
 msgid "Manage translation files packages"
 msgstr ""
 
-#: Plugin\Locale\View\Elements\toolbar.ctp:11
+#: Plugin\Locale\View\Elements\toolbar.ctp:12
 msgid "Add translatable entry"
 msgstr ""
 
-#: Plugin\Locale\View\Elements\toolbar.ctp:13
+#: Plugin\Locale\View\Elements\toolbar.ctp:14
 msgid "Add new translatable entry."
 msgstr ""
 
-#: Plugin\Locale\View\Languages\admin_edit.ctp:22
+#: Plugin\Locale\View\Elements\toolbar.ctp:22
+msgid "Fuzzy entries"
+msgstr ""
+
+#: Plugin\Locale\View\Elements\toolbar.ctp:24
+msgid "Fuzzy entries."
+msgstr ""
+
+#: Plugin\Locale\View\Languages\admin_edit.ctp:26
 #: Plugin\Locale\View\Languages\admin_index.ctp:69
 msgid "Language name in English *"
 msgstr ""
 
-#: Plugin\Locale\View\Languages\admin_edit.ctp:24
+#: Plugin\Locale\View\Languages\admin_edit.ctp:28
 #: Plugin\Locale\View\Languages\admin_index.ctp:71
 msgid "Native language name *"
 msgstr ""
 
-#: Plugin\Locale\View\Languages\admin_edit.ctp:25
+#: Plugin\Locale\View\Languages\admin_edit.ctp:29
 #: Plugin\Locale\View\Languages\admin_index.ctp:72
 msgid "Name of the language in the language being added."
 msgstr ""
 
-#: Plugin\Locale\View\Languages\admin_edit.ctp:36
+#: Plugin\Locale\View\Languages\admin_edit.ctp:40
 msgid "Flag icon"
 msgstr ""
 
-#: Plugin\Locale\View\Languages\admin_edit.ctp:38
+#: Plugin\Locale\View\Languages\admin_edit.ctp:42
+#: Plugin\System\View\Configuration\admin_index.ctp:89
 #: Plugin\Taxonomy\View\Vocabularies\admin_terms.ctp:8
 msgid "-- None --"
 msgstr ""
 
-#: Plugin\Locale\View\Languages\admin_edit.ctp:53
+#: Plugin\Locale\View\Languages\admin_edit.ctp:57
 msgid "Custom flag icon"
 msgstr ""
 
-#: Plugin\Locale\View\Languages\admin_edit.ctp:58
+#: Plugin\Locale\View\Languages\admin_edit.ctp:62
 msgid "Optional URL of your language flag icon, if your language flag isn't in the above list."
 msgstr ""
 
-#: Plugin\Locale\View\Languages\admin_edit.ctp:67
+#: Plugin\Locale\View\Languages\admin_edit.ctp:71
 #: Plugin\Locale\View\Languages\admin_index.ctp:81
 msgid "Left to Right"
 msgstr ""
 
-#: Plugin\Locale\View\Languages\admin_edit.ctp:68
+#: Plugin\Locale\View\Languages\admin_edit.ctp:72
 #: Plugin\Locale\View\Languages\admin_index.ctp:82
 msgid "Right to Left"
 msgstr ""
 
-#: Plugin\Locale\View\Languages\admin_edit.ctp:71
+#: Plugin\Locale\View\Languages\admin_edit.ctp:75
 #: Plugin\Locale\View\Languages\admin_index.ctp:85
 msgid "Direction *"
 msgstr ""
 
-#: Plugin\Locale\View\Languages\admin_edit.ctp:72
+#: Plugin\Locale\View\Languages\admin_edit.ctp:76
 #: Plugin\Locale\View\Languages\admin_index.ctp:86
 msgid "Direction that text in this language is presented."
 msgstr ""
 
-#: Plugin\Locale\View\Languages\admin_edit.ctp:79
+#: Plugin\Locale\View\Languages\admin_edit.ctp:83
 msgid "Save language"
 msgstr ""
 
@@ -1466,6 +1502,7 @@ msgid "disabled"
 msgstr ""
 
 #: Plugin\Locale\View\Languages\admin_index.ctp:32
+#: Plugin\Locale\View\Translations\admin_fuzzy_list.ctp:10
 #: Plugin\Locale\View\Translations\admin_list.ctp:8
 #: Plugin\Menu\View\Manage\admin_index.ctp:8
 #: Plugin\Node\View\Contents\admin_index.ctp:37
@@ -1604,17 +1641,17 @@ msgstr ""
 msgid "Invalid package"
 msgstr ""
 
-#: Plugin\Locale\View\Translations\admin_add.ctp:3
+#: Plugin\Locale\View\Translations\admin_add.ctp:2
 msgid "Adding translatable entry"
 msgstr ""
 
-#: Plugin\Locale\View\Translations\admin_add.ctp:9
+#: Plugin\Locale\View\Translations\admin_add.ctp:8
 #: Plugin\Locale\View\Translations\admin_edit.ctp:5
-#: Plugin\Locale\View\Translations\admin_list.ctp:28
+#: Plugin\Locale\View\Translations\admin_list.ctp:29
 msgid "Original text"
 msgstr ""
 
-#: Plugin\Locale\View\Translations\admin_add.ctp:54
+#: Plugin\Locale\View\Translations\admin_add.ctp:53
 #: Plugin\Locale\View\Translations\admin_edit.ctp:53
 #: Plugin\Node\View\Contents\admin_translate.ctp:28
 msgid "Translate"
@@ -1628,9 +1665,49 @@ msgstr ""
 msgid "Usage"
 msgstr ""
 
+#: Plugin\Locale\View\Translations\admin_fuzzy_list.ctp:4
 #: Plugin\Locale\View\Translations\admin_list.ctp:4
 #: Vendor\DummyLocale.php:65;75
 msgid "Text"
+msgstr ""
+
+#: Plugin\Locale\View\Translations\admin_fuzzy_list.ctp:12
+#: Plugin\Node\View\Contents\admin_index.ctp:39
+msgid "translate"
+msgstr ""
+
+#: Plugin\Locale\View\Translations\admin_fuzzy_list.ctp:13
+msgid "unhide"
+msgstr ""
+
+#: Plugin\Locale\View\Translations\admin_fuzzy_list.ctp:13
+msgid "hide"
+msgstr ""
+
+#: Plugin\Locale\View\Translations\admin_fuzzy_list.ctp:14
+#: Plugin\Locale\View\Translations\admin_list.ctp:12
+msgid "Delete this entry ?"
+msgstr ""
+
+#: Plugin\Locale\View\Translations\admin_fuzzy_list.ctp:20
+msgid "There are no fuzzy entries to display"
+msgstr ""
+
+#: Plugin\Locale\View\Translations\admin_fuzzy_list.ctp:28
+#: Plugin\Locale\View\Translations\admin_list.ctp:36
+msgid "Export"
+msgstr ""
+
+#: Plugin\Locale\View\Translations\admin_fuzzy_list.ctp:32
+msgid "Show hidden entries"
+msgstr ""
+
+#: Plugin\Locale\View\Translations\admin_fuzzy_list.ctp:34
+msgid "Do not show hidden entries"
+msgstr ""
+
+#: Plugin\Locale\View\Translations\admin_import.ctp:7
+msgid "Package (.pot)"
 msgstr ""
 
 #: Plugin\Locale\View\Translations\admin_list.ctp:11
@@ -1639,10 +1716,6 @@ msgstr ""
 
 #: Plugin\Locale\View\Translations\admin_list.ctp:11
 msgid "regenerate"
-msgstr ""
-
-#: Plugin\Locale\View\Translations\admin_list.ctp:12
-msgid "Delete this entry ?"
 msgstr ""
 
 #: Plugin\Locale\View\Translations\admin_list.ctp:18
@@ -1654,6 +1727,10 @@ msgstr ""
 #: Plugin\Node\View\Helper\NodeHookHelper.php:63
 #: View\Elements\theme_search_form.ctp:15;50
 msgid "Search"
+msgstr ""
+
+#: Plugin\Locale\View\Translations\admin_list.ctp:38
+msgid "Import"
 msgstr ""
 
 #: Plugin\Menu\Controller\ManageController.php:23;53;81;138;179;229
@@ -1914,40 +1991,40 @@ msgstr ""
 msgid "Contents"
 msgstr ""
 
-#: Plugin\Node\Controller\ContentsController.php:148
+#: Plugin\Node\Controller\ContentsController.php:147
 msgid "Translate Content"
 msgstr ""
 
-#: Plugin\Node\Controller\ContentsController.php:150
+#: Plugin\Node\Controller\ContentsController.php:149
 #: Plugin\Node\View\Contents\admin_translate.ctp:11
 msgid "Translating Content"
 msgstr ""
 
-#: Plugin\Node\Controller\ContentsController.php:165;251
+#: Plugin\Node\Controller\ContentsController.php:164;250
 msgid "Content has been saved"
 msgstr ""
 
-#: Plugin\Node\Controller\ContentsController.php:168;254
+#: Plugin\Node\Controller\ContentsController.php:167;253
 msgid "Content could not be saved. Please, try again."
 msgstr ""
 
-#: Plugin\Node\Controller\ContentsController.php:173
+#: Plugin\Node\Controller\ContentsController.php:172
 msgid "<b>Content type not found.</b><br/>You can't edit this undefined type of content."
 msgstr ""
 
-#: Plugin\Node\Controller\ContentsController.php:212
+#: Plugin\Node\Controller\ContentsController.php:211
 msgid "Missing parent content. This is a translated content, and reference a missing parent content."
 msgstr ""
 
-#: Plugin\Node\Controller\ContentsController.php:226
+#: Plugin\Node\Controller\ContentsController.php:225
 msgid "Editing Content"
 msgstr ""
 
-#: Plugin\Node\Controller\ContentsController.php:232;293
+#: Plugin\Node\Controller\ContentsController.php:231;292
 msgid "Add Content"
 msgstr ""
 
-#: Plugin\Node\Controller\ContentsController.php:235
+#: Plugin\Node\Controller\ContentsController.php:234
 msgid "Select content type"
 msgstr ""
 
@@ -2306,10 +2383,6 @@ msgstr ""
 msgid "updated"
 msgstr ""
 
-#: Plugin\Node\View\Contents\admin_index.ctp:39
-msgid "translate"
-msgstr ""
-
 #: Plugin\Node\View\Contents\admin_index.ctp:46
 msgid "There are no nodes to display"
 msgstr ""
@@ -2384,7 +2457,7 @@ msgid "Keywords"
 msgstr ""
 
 #: Plugin\Node\View\Elements\search_block_settings.ctp:16
-#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\formatter_from.ctp:20
+#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\formatter_form.ctp:20
 #: Plugin\Taxonomy\View\Elements\taxonomy_vocabularies_settings.ctp:61
 msgid "URL prefix"
 msgstr ""
@@ -2713,27 +2786,27 @@ msgstr ""
 msgid "Your themes folder is not writable. %s"
 msgstr ""
 
-#: Plugin\System\Controller\ThemesController.php:86
+#: Plugin\System\Controller\ThemesController.php:87
 msgid "Theme settings"
 msgstr ""
 
-#: Plugin\System\Controller\ThemesController.php:88
+#: Plugin\System\Controller\ThemesController.php:89
 msgid "Configure Theme"
 msgstr ""
 
-#: Plugin\System\Controller\ThemesController.php:97
+#: Plugin\System\Controller\ThemesController.php:98
 msgid "Theme '%s' has been uninstalled"
 msgstr ""
 
-#: Plugin\System\Controller\ThemesController.php:101
+#: Plugin\System\Controller\ThemesController.php:102
 msgid "Error uninstalling theme '%s'"
 msgstr ""
 
-#: Plugin\System\Controller\ThemesController.php:115
+#: Plugin\System\Controller\ThemesController.php:116
 msgid "Theme could not been installed"
 msgstr ""
 
-#: Plugin\System\Controller\ThemesController.php:117
+#: Plugin\System\Controller\ThemesController.php:118
 msgid "Theme has been installed"
 msgstr ""
 
@@ -2821,15 +2894,67 @@ msgstr ""
 msgid "Users settings"
 msgstr ""
 
-#: Plugin\System\View\Configuration\admin_index.ctp:43
-msgid "Default avatar"
+#: Plugin\System\View\Configuration\admin_index.ctp:47
+msgid "Use <a href='http://www.gravatar.com'>Gravatar</a>"
 msgstr ""
 
-#: Plugin\System\View\Configuration\admin_index.ctp:44
-msgid "URL of picture to display for users with no custom picture selected or anonymous users. Leave empty to use <a href='http://www.gravatar.com'>Gravatar</a> based on user's email."
+#: Plugin\System\View\Configuration\admin_index.ctp:58
+msgid "Avatar width"
+msgstr ""
+
+#: Plugin\System\View\Configuration\admin_index.ctp:59
+msgid "By default, images are presented at 80px by 80px if no size parameter is supplied."
+msgstr ""
+
+#: Plugin\System\View\Configuration\admin_index.ctp:61
+msgid "Default avatar URL"
 msgstr ""
 
 #: Plugin\System\View\Configuration\admin_index.ctp:62
+msgid "URL of picture to display for users with an email not matching a Gravatar image."
+msgstr ""
+
+#: Plugin\System\View\Configuration\admin_index.ctp:68
+msgid "Force default"
+msgstr ""
+
+#: Plugin\System\View\Configuration\admin_index.ctp:76
+msgid "Force the default image to always load."
+msgstr ""
+
+#: Plugin\System\View\Configuration\admin_index.ctp:82
+msgid "Rating"
+msgstr ""
+
+#: Plugin\System\View\Configuration\admin_index.ctp:93
+msgid "If the user's email does not have an image meeting the requested rating level, then the default image is returned (or the specified default)"
+msgstr ""
+
+#: Plugin\System\View\Configuration\admin_index.ctp:96
+msgid "suitable for display on all websites with any audience type."
+msgstr ""
+
+#: Plugin\System\View\Configuration\admin_index.ctp:97
+msgid "may contain rude gestures, provocatively dressed individuals, the lesser swear words, or mild violence."
+msgstr ""
+
+#: Plugin\System\View\Configuration\admin_index.ctp:98
+msgid "may contain such things as harsh profanity, intense violence, nudity, or hard drug use."
+msgstr ""
+
+#: Plugin\System\View\Configuration\admin_index.ctp:99
+msgid "may contain hardcore sexual imagery or extremely disturbing violence."
+msgstr ""
+
+#: Plugin\System\View\Configuration\admin_index.ctp:105
+msgid "Default avatar"
+msgstr ""
+
+#: Plugin\System\View\Configuration\admin_index.ctp:106
+msgid "URL of picture to display for users with no custom picture selected or anonymous users."
+msgstr ""
+
+#: Plugin\System\View\Configuration\admin_index.ctp:124
 msgid "Other module settings"
 msgstr ""
 
@@ -3081,55 +3206,55 @@ msgstr ""
 msgid "You must <a href=\"%s\">select a vocabulary</a> for this field!"
 msgstr ""
 
-#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\formatter_from.ctp:11
+#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\formatter_form.ctp:11
 msgid "Link (localized)"
 msgstr ""
 
-#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\formatter_from.ctp:12
+#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\formatter_form.ctp:12
 msgid "Plain (localized)"
 msgstr ""
 
-#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\formatter_from.ctp:25
+#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\formatter_form.ctp:25
 msgid "Valid only when format is \"Link (localized)\". Adds a prefix to each term link url."
 msgstr ""
 
-#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_from.ctp:7
+#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_form.ctp:7
 msgid "Vocabulary *"
 msgstr ""
 
-#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_from.ctp:11
+#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_form.ctp:11
 msgid "The vocabulary which supplies the options for this field."
 msgstr ""
 
-#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_from.ctp:18
+#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_form.ctp:18
 msgid "Check boxes/radio buttons"
 msgstr ""
 
-#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_from.ctp:19
+#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_form.ctp:19
 msgid "Select list"
 msgstr ""
 
-#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_from.ctp:20
+#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_form.ctp:20
 msgid "Autocomplete term (tagging)"
 msgstr ""
 
-#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_from.ctp:23
+#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_form.ctp:23
 msgid "Element Type"
 msgstr ""
 
-#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_from.ctp:27
+#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_form.ctp:27
 msgid "The type of form element you would like to present to the user when creating this field."
 msgstr ""
 
-#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_from.ctp:33
+#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_form.ctp:33
 msgid "Unlimited"
 msgstr ""
 
-#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_from.ctp:35
+#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_form.ctp:35
 msgid "Number of values"
 msgstr ""
 
-#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_from.ctp:39
+#: Plugin\Taxonomy\Fields\TaxonomyTerms\View\Elements\settings_form.ctp:39
 msgid "Maximum number of values users can enter for this field."
 msgstr ""
 
@@ -3274,7 +3399,7 @@ msgstr ""
 msgid "Editing user"
 msgstr ""
 
-#: Plugin\User\Controller\PermissionsController.php:36;38
+#: Plugin\User\Controller\PermissionsController.php:35;37
 msgid "User Permissions"
 msgstr ""
 
@@ -3357,19 +3482,19 @@ msgstr ""
 msgid "Logout successful."
 msgstr ""
 
-#: Plugin\User\Controller\Component\MailerComponent.php:52
+#: Plugin\User\Controller\Component\MailerComponent.php:62
 msgid "User not found."
 msgstr ""
 
-#: Plugin\User\Controller\Component\MailerComponent.php:75
+#: Plugin\User\Controller\Component\MailerComponent.php:86
 msgid "This message has been marked as \"do not notify\"."
 msgstr ""
 
-#: Plugin\User\Controller\Component\MailerComponent.php:87;103
+#: Plugin\User\Controller\Component\MailerComponent.php:100;124
 msgid "Email could not be sent."
 msgstr ""
 
-#: Plugin\User\Controller\Component\MailerComponent.php:92;106
+#: Plugin\User\Controller\Component\MailerComponent.php:105;127
 msgid "Invalid message preset."
 msgstr ""
 
@@ -3451,7 +3576,7 @@ msgid "Configure how fields should be displayed when rendering a user profile pa
 msgstr ""
 
 #: Plugin\User\View\Elements\user_login_block.ctp:5
-#: Plugin\User\View\User\profile.ctp:9
+#: View\Elements\theme_user_profile.ctp:15
 #: View\Install\user_account.ctp:27
 msgid "Username"
 msgstr ""
@@ -3570,8 +3695,8 @@ msgid "User Name"
 msgstr ""
 
 #: Plugin\User\View\List\admin_index.ctp:13;62
-#: Plugin\User\View\User\profile.ctp:14
 #: View\Elements\theme_node_comments_form.ctp:37
+#: View\Elements\theme_user_profile.ctp:20
 #: View\Install\user_account.ctp:35
 msgid "Email"
 msgstr ""
@@ -3623,26 +3748,6 @@ msgstr ""
 
 #: Plugin\User\View\User\password_recovery.ctp:6
 msgid "E-mail new password"
-msgstr ""
-
-#: Plugin\User\View\User\profile.ctp:2
-msgid "Profile"
-msgstr ""
-
-#: Plugin\User\View\User\profile.ctp:10
-msgid "Real name"
-msgstr ""
-
-#: Plugin\User\View\User\profile.ctp:19
-msgid "User since"
-msgstr ""
-
-#: Plugin\User\View\User\profile.ctp:19;20
-msgid "M d, Y"
-msgstr ""
-
-#: Plugin\User\View\User\profile.ctp:20
-msgid "Last connection"
 msgstr ""
 
 #: Plugin\User\View\User\register.ctp:23
@@ -3916,6 +4021,26 @@ msgstr ""
 msgid "Only of the type(s)"
 msgstr ""
 
+#: View\Elements\theme_user_profile.ctp:2
+msgid "Profile"
+msgstr ""
+
+#: View\Elements\theme_user_profile.ctp:16
+msgid "Real name"
+msgstr ""
+
+#: View\Elements\theme_user_profile.ctp:25
+msgid "User since"
+msgstr ""
+
+#: View\Elements\theme_user_profile.ctp:25;26
+msgid "M d, Y"
+msgstr ""
+
+#: View\Elements\theme_user_profile.ctp:26
+msgid "Last connection"
+msgstr ""
+
 #: View\Errors\error400.ctp:4
 #: View\Errors\error500.ctp:4
 #: View\Errors\private_action.ctp:4
@@ -4088,6 +4213,14 @@ msgstr ""
 msgid "QuickApps Installation"
 msgstr ""
 
+#: View\Layouts\Emails\html\default.ctp:16
+msgid "This email was sent using <a href=\"http://www.quickappscms.org/\">QuickApps CMS v%s</a>"
+msgstr ""
+
+#: View\Layouts\Emails\text\default.ctp:9
+msgid "This email was sent using QuickApps CMS v%s [http://www.quickappscms.org/]"
+msgstr ""
+
 #: View\Themed\Admin\Layouts\default.ctp:18
 msgid "View site"
 msgstr ""
@@ -4124,7 +4257,7 @@ msgstr ""
 msgid "Commenter name required."
 msgstr ""
 
-#: Plugin\Comment\Model\Comment.php:validation for field email
+#: Plugin\Comment\Model\Comment.php:validation for field mail
 #: Plugin\User\Model\User.php:validation for field email
 msgid "Invalid email."
 msgstr ""
