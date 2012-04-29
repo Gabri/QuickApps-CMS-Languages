@@ -910,7 +910,7 @@ msgstr "Mostra mesi multipli"
 
 #: Plugin\Field\Fields\FieldDate\View\Elements\settings_form.ctp:115
 msgid "Localize"
-msgstr "Lingua"
+msgstr "Localizza"
 
 #: Plugin\Field\Fields\FieldFile\Controller\UploadifyController.php:52
 msgid "Invalid file extension."
@@ -2746,12 +2746,12 @@ msgstr "La cartella del tuo modulo non è scrivibile. %s"
 
 #: Plugin\System\Controller\ModulesController.php:58
 msgid "Load order"
-msgstr "Carica cartella"
+msgstr "Ordine di caricamento"
 
 #: Plugin\System\Controller\ModulesController.php:60
 #: Plugin\System\View\Elements\toolbar-modules.ctp:4
 msgid "Load Order"
-msgstr "Carica cartella"
+msgstr "Ordine di caricamento"
 
 #: Plugin\System\Controller\ModulesController.php:79
 msgid "Module changes has been saved!"
@@ -2959,7 +2959,7 @@ msgstr "Altre impostazioni modulo"
 
 #: Plugin\System\View\Elements\toolbar-modules.ctp:3
 msgid "Manage"
-msgstr "Lingua"
+msgstr "Gestisci"
 
 #: Plugin\System\View\Help\admin_index.ctp:1
 msgid "Help topics"
